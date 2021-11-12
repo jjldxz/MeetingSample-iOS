@@ -79,7 +79,6 @@
 		B4C55DBA26DCE93F001A08CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C55DB826DCE93F001A08CF /* LaunchScreen.storyboard */; };
 		B4C55DC926DCEF10001A08CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C55DC726DCEF10001A08CF /* LoginViewController.swift */; };
 		B4C55DCA26DCEF10001A08CF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C55DC826DCEF10001A08CF /* LoginViewController.xib */; };
-		B4D1593426DF29DB00E1201A /* cloud_lvb_sdk_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D1593326DF29DB00E1201A /* cloud_lvb_sdk_ios.framework */; };
 		B4D1593726DF5E8200E1201A /* LoginUserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1593626DF5E8200E1201A /* LoginUserDataModel.swift */; };
 		B4D1593D26DF6E1300E1201A /* MeetingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1593B26DF6E1300E1201A /* MeetingListCell.swift */; };
 		B4D1593E26DF6E1300E1201A /* MeetingListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D1593C26DF6E1300E1201A /* MeetingListCell.xib */; };
@@ -150,7 +149,7 @@
 		B4FB7A0826F48D210049DE2A /* ZHFigureDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79E326F48D200049DE2A /* ZHFigureDrawingView.m */; };
 		B4FB7A0926F48D210049DE2A /* ZHFigureDrawingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79E426F48D200049DE2A /* ZHFigureDrawingLayer.m */; };
 		B4FB7A0D26F48DE70049DE2A /* WhiteboardToolsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB7A0C26F48DE70049DE2A /* WhiteboardToolsModel.m */; };
-		F889D5092ADE38C9088FFDEE /* Pods_MeetingSample_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DD38B46055F0B1F231DFDC /* Pods_MeetingSample_Share.framework */; };
+		C23A23526C3B52A78B202010 /* Pods_MeetingSampleShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09383B814CDA1EDAE4FD522A /* Pods_MeetingSampleShare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,7 +177,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09383B814CDA1EDAE4FD522A /* Pods_MeetingSampleShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingSampleShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3846CD0BB802AC31FEF8B4 /* Pods-MeetingSampleShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingSampleShare.debug.xcconfig"; path = "Target Support Files/Pods-MeetingSampleShare/Pods-MeetingSampleShare.debug.xcconfig"; sourceTree = "<group>"; };
 		3E6F1AB934AFD95590CDDEF1 /* Pods-MeetingSample_Share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingSample_Share.release.xcconfig"; path = "Target Support Files/Pods-MeetingSample_Share/Pods-MeetingSample_Share.release.xcconfig"; sourceTree = "<group>"; };
+		6635C5E94795D5E37727F722 /* Pods-MeetingSampleShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingSampleShare.release.xcconfig"; path = "Target Support Files/Pods-MeetingSampleShare/Pods-MeetingSampleShare.release.xcconfig"; sourceTree = "<group>"; };
 		778C52B5F637155198523EBD /* Pods-meeting_ios_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeting_ios_sample.debug.xcconfig"; path = "Target Support Files/Pods-meeting_ios_sample/Pods-meeting_ios_sample.debug.xcconfig"; sourceTree = "<group>"; };
 		929AE990B35486B409841122 /* Pods_meeting_ios_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meeting_ios_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B401B97A27181AB6004A18E1 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
@@ -268,7 +270,6 @@
 		B4C55DBB26DCE93F001A08CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4C55DC726DCEF10001A08CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B4C55DC826DCEF10001A08CF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		B4D1593326DF29DB00E1201A /* cloud_lvb_sdk_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = cloud_lvb_sdk_ios.framework; sourceTree = "<group>"; };
 		B4D1593626DF5E8200E1201A /* LoginUserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserDataModel.swift; sourceTree = "<group>"; };
 		B4D1593B26DF6E1300E1201A /* MeetingListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListCell.swift; sourceTree = "<group>"; };
 		B4D1593C26DF6E1300E1201A /* MeetingListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingListCell.xib; sourceTree = "<group>"; };
@@ -383,7 +384,6 @@
 		B4FB7A0C26F48DE70049DE2A /* WhiteboardToolsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteboardToolsModel.m; sourceTree = "<group>"; };
 		BE4BE88596A053029AEDAF7B /* Pods-MeetingSample_Share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingSample_Share.debug.xcconfig"; path = "Target Support Files/Pods-MeetingSample_Share/Pods-MeetingSample_Share.debug.xcconfig"; sourceTree = "<group>"; };
 		E009701FF1AD69082C9989FA /* Pods-meeting_ios_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeting_ios_sample.release.xcconfig"; path = "Target Support Files/Pods-meeting_ios_sample/Pods-meeting_ios_sample.release.xcconfig"; sourceTree = "<group>"; };
-		F2DD38B46055F0B1F231DFDC /* Pods_MeetingSample_Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingSample_Share.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,8 +395,8 @@
 				B4557A402720FBDC00AC7B4B /* libc++.tbd in Frameworks */,
 				B4557A412720FBE700AC7B4B /* Accelerate.framework in Frameworks */,
 				B4557A322720FA0100AC7B4B /* ReplayKit.framework in Frameworks */,
-				F889D5092ADE38C9088FFDEE /* Pods_MeetingSample_Share.framework in Frameworks */,
 				B4D67A8127228995007E6AF9 /* CLS_ShareSDK.framework in Frameworks */,
+				C23A23526C3B52A78B202010 /* Pods_MeetingSampleShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +405,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44999A326DE07DA0039FF59 /* ImageIO.framework in Frameworks */,
-				B4D1593426DF29DB00E1201A /* cloud_lvb_sdk_ios.framework in Frameworks */,
 				B44999A526DE086C0039FF59 /* ReplayKit.framework in Frameworks */,
 				B44999A126DE07D20039FF59 /* CoreMedia.framework in Frameworks */,
 				8B1AB36A0F8D7A939E61111E /* Pods_meeting_ios_sample.framework in Frameworks */,
@@ -426,7 +425,7 @@
 				B44999A026DE07D20039FF59 /* CoreMedia.framework */,
 				929AE990B35486B409841122 /* Pods_meeting_ios_sample.framework */,
 				B4557A212720F7B600AC7B4B /* UIKit.framework */,
-				F2DD38B46055F0B1F231DFDC /* Pods_MeetingSample_Share.framework */,
+				09383B814CDA1EDAE4FD522A /* Pods_MeetingSampleShare.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -438,6 +437,8 @@
 				E009701FF1AD69082C9989FA /* Pods-meeting_ios_sample.release.xcconfig */,
 				BE4BE88596A053029AEDAF7B /* Pods-MeetingSample_Share.debug.xcconfig */,
 				3E6F1AB934AFD95590CDDEF1 /* Pods-MeetingSample_Share.release.xcconfig */,
+				0B3846CD0BB802AC31FEF8B4 /* Pods-MeetingSampleShare.debug.xcconfig */,
+				6635C5E94795D5E37727F722 /* Pods-MeetingSampleShare.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -615,7 +616,6 @@
 				B4E7849E2701A39200CF234A /* Members */,
 				B40A5E8C2700613A007016D7 /* Group */,
 				B4FB799526F48CFC0049DE2A /* Whiteboard */,
-				B4D1593326DF29DB00E1201A /* cloud_lvb_sdk_ios.framework */,
 				B4C55DAD26DCE93D001A08CF /* AppDelegate.swift */,
 				B4D1593826DF6DB800E1201A /* MainPage */,
 				B44999A626DE0AA50039FF59 /* Networking */,
@@ -1083,7 +1083,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" \n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4CA41143414169069B8D95B6 /* [CP] Check Pods Manifest.lock */ = {
@@ -1101,7 +1101,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MeetingSample_Share-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MeetingSampleShare-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1264,7 +1264,7 @@
 /* Begin XCBuildConfiguration section */
 		B4557A3B2720FA0100AC7B4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE4BE88596A053029AEDAF7B /* Pods-MeetingSample_Share.debug.xcconfig */;
+			baseConfigurationReference = 0B3846CD0BB802AC31FEF8B4 /* Pods-MeetingSampleShare.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = MeetingSampleShare/MeetingSampleShare.entitlements;
@@ -1300,7 +1300,7 @@
 		};
 		B4557A3C2720FA0100AC7B4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E6F1AB934AFD95590CDDEF1 /* Pods-MeetingSample_Share.release.xcconfig */;
+			baseConfigurationReference = 6635C5E94795D5E37727F722 /* Pods-MeetingSampleShare.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_ENTITLEMENTS = MeetingSampleShare/MeetingSampleShare.entitlements;

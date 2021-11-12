@@ -7,20 +7,16 @@ target 'meeting_ios_sample' do
 
   # Pods for meeting_ios_sample
 
-  pod 'AFNetworking'
   pod 'YYKit'
-  pod 'YYModel'
-  pod 'AgoraRtcEngine_iOS', '3.4.7'
-  pod 'SocketRocket'
-  pod 'Protobuf'
   pod 'Alamofire'
   pod 'RxSwift'
   pod 'SnapKit'
   pod 'HandyJSON'
+  pod 'CloudLVB-SDK-IOS'
 
 end
 
-target 'MeetingSample_Share' do
+target 'MeetingSampleShare' do
   use_frameworks!
   
   pod 'YYModel'
