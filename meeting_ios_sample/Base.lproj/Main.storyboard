@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MNd-FF-v55">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="5qN-Zg-HwM">
+            <objects>
+                <navigationController id="MNd-FF-v55" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9ZO-Sw-Sex">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="T8n-Ak-ybq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4dI-gt-IkX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1297" y="88"/>
+        </scene>
+        <!--Meeting Sample-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="meeting_ios_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDo-VD-4Cu">
+                                <rect key="frame" x="24" y="128" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="aur-aM-O4j"/>
+                                    <constraint firstAttribute="height" constant="80" id="oms-zJ-Z58"/>
+                                </constraints>
+                                <state key="normal" image="join_meeting"/>
+                                <connections>
+                                    <action selector="joinMeetingAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gB4-DY-iaW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtN-U3-vxU">
+                                <rect key="frame" x="310" y="128" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="7Lq-Ib-aLw"/>
+                                    <constraint firstAttribute="width" constant="80" id="Nmf-RQ-6BC"/>
+                                </constraints>
+                                <state key="normal" image="reserve_meeting"/>
+                                <connections>
+                                    <action selector="reserveMeetingAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLn-9H-1UE"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sNz-Oc-qng">
+                                <rect key="frame" x="0.0" y="248" width="414" height="648"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qp3-CP-v7C">
+                                <rect key="frame" x="167" y="128" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="LuI-MU-UsE"/>
+                                    <constraint firstAttribute="width" constant="80" id="gzw-T4-liU"/>
+                                </constraints>
+                                <state key="normal" image="fast_meeting"/>
+                                <connections>
+                                    <action selector="fastMeetingAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nsc-kv-goE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mtN-U3-vxU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="8vF-Un-v5r"/>
+                            <constraint firstItem="sNz-Oc-qng" firstAttribute="top" secondItem="HDo-VD-4Cu" secondAttribute="bottom" constant="40" id="APb-Fq-Vjy"/>
+                            <constraint firstItem="sNz-Oc-qng" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fpy-JO-hpU"/>
+                            <constraint firstItem="qp3-CP-v7C" firstAttribute="baseline" secondItem="HDo-VD-4Cu" secondAttribute="baseline" id="H9i-gX-iKr"/>
+                            <constraint firstAttribute="bottom" secondItem="sNz-Oc-qng" secondAttribute="bottom" id="KFl-5o-1o2"/>
+                            <constraint firstItem="sNz-Oc-qng" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Lf3-W4-V5y"/>
+                            <constraint firstItem="HDo-VD-4Cu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="Qzn-I6-oUe"/>
+                            <constraint firstItem="qp3-CP-v7C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dJ7-ax-3Rm"/>
+                            <constraint firstItem="HDo-VD-4Cu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="ptA-4b-wUy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mtN-U3-vxU" secondAttribute="trailing" constant="24" id="vZh-5i-XAV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Meeting Sample" id="sKW-MV-WkF"/>
+                    <connections>
+                        <outlet property="fast_meeting_btn" destination="qp3-CP-v7C" id="kLg-XD-KUw"/>
+                        <outlet property="join_btn" destination="HDo-VD-4Cu" id="u1I-BO-6In"/>
+                        <outlet property="meeting_table_list" destination="sNz-Oc-qng" id="xPs-UW-5L8"/>
+                        <outlet property="reserve_btn" destination="mtN-U3-vxU" id="jqh-Ie-daz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-443.47826086956525" y="80.357142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fast_meeting" width="45" height="45"/>
+        <image name="join_meeting" width="45" height="45"/>
+        <image name="reserve_meeting" width="45" height="45"/>
+    </resources>
+</document>

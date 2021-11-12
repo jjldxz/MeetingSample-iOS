@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="87" id="KGk-i7-Jjw" customClass="MeetingListCell" customModule="meeting_ios_sample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="87"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01 09 today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWy-Xq-9fr">
+                        <rect key="frame" x="20" y="8" width="281" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="sCF-Hn-HO5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16:15 - 18:12 702305955" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfU-CA-vb4">
+                        <rect key="frame" x="20" y="36" width="162" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="LPi-aG-cBB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user7510's meeting invition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APe-M0-gYB">
+                        <rect key="frame" x="20" y="64" width="281" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="ehl-ti-rwm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Waiting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ByC-t7-aZd">
+                        <rect key="frame" x="249.5" y="37" width="51.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" systemColor="systemOrangeColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="sfU-CA-vb4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="3WC-IP-Qxy"/>
+                    <constraint firstItem="EWy-Xq-9fr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="77V-IV-BjT"/>
+                    <constraint firstAttribute="trailing" secondItem="APe-M0-gYB" secondAttribute="trailing" constant="20" id="CfM-cZ-mis"/>
+                    <constraint firstItem="EWy-Xq-9fr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ZAr-Mc-AIg"/>
+                    <constraint firstAttribute="trailing" secondItem="ByC-t7-aZd" secondAttribute="trailing" constant="20" id="ccz-GL-3Ej"/>
+                    <constraint firstItem="ByC-t7-aZd" firstAttribute="centerY" secondItem="sfU-CA-vb4" secondAttribute="centerY" id="cro-x5-q2k"/>
+                    <constraint firstItem="APe-M0-gYB" firstAttribute="top" secondItem="sfU-CA-vb4" secondAttribute="bottom" constant="8" id="gSg-jK-vJe"/>
+                    <constraint firstItem="sfU-CA-vb4" firstAttribute="top" secondItem="EWy-Xq-9fr" secondAttribute="bottom" constant="4" id="l6k-xN-YAf"/>
+                    <constraint firstItem="ByC-t7-aZd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sfU-CA-vb4" secondAttribute="trailing" constant="12" id="r9c-EC-Rzs"/>
+                    <constraint firstItem="APe-M0-gYB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="sPW-EF-cEg"/>
+                    <constraint firstAttribute="trailing" secondItem="EWy-Xq-9fr" secondAttribute="trailing" constant="20" id="uMz-PN-9BB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="date_label" destination="EWy-Xq-9fr" id="o27-iU-lRo"/>
+                <outlet property="meeting_status_label" destination="ByC-t7-aZd" id="yeb-0C-B3Q"/>
+                <outlet property="owner_label" destination="APe-M0-gYB" id="7hB-DF-C0T"/>
+                <outlet property="time_label" destination="sfU-CA-vb4" id="ydE-0S-wHs"/>
+            </connections>
+            <point key="canvasLocation" x="119.56521739130436" y="92.075892857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

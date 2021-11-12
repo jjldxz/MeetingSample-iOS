@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VideoDisplayViewCell" customModule="meeting_ios_sample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="179" height="240"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="179" height="240"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4kF-iK-bNb">
+                        <rect key="frame" x="0.0" y="0.0" width="179" height="240"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5iu-W3-01v">
+                                <rect key="frame" x="0.0" y="0.0" width="179" height="240"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xPA-hE-Ww1">
+                                <rect key="frame" x="0.0" y="0.0" width="179" height="240"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meeting_member_no_record_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Kbo-f3-7IN">
+                                        <rect key="frame" x="59.5" y="90" width="60" height="60"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Kbo-f3-7IN" firstAttribute="centerY" secondItem="xPA-hE-Ww1" secondAttribute="centerY" id="Fhf-d3-X50"/>
+                                    <constraint firstItem="Kbo-f3-7IN" firstAttribute="top" secondItem="xPA-hE-Ww1" secondAttribute="top" constant="90" id="Mkf-yz-SQQ"/>
+                                    <constraint firstItem="Kbo-f3-7IN" firstAttribute="leading" secondItem="xPA-hE-Ww1" secondAttribute="leading" constant="59.5" id="ZUI-5a-liN"/>
+                                    <constraint firstItem="Kbo-f3-7IN" firstAttribute="centerX" secondItem="xPA-hE-Ww1" secondAttribute="centerX" id="f9v-xz-MRO"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meeting_listMember_unmute" translatesAutoresizingMaskIntoConstraints="NO" id="L8f-zL-j6I">
+                                <rect key="frame" x="8" y="212" width="16" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="qrm-dP-1kD"/>
+                                    <constraint firstAttribute="height" constant="20" id="tSl-xz-zU8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2V3-Gg-8cc">
+                                <rect key="frame" x="32" y="212" width="139" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xPA-hE-Ww1" firstAttribute="leading" secondItem="4kF-iK-bNb" secondAttribute="leading" id="4k9-3d-c0h"/>
+                            <constraint firstItem="xPA-hE-Ww1" firstAttribute="top" secondItem="5iu-W3-01v" secondAttribute="top" id="6jd-FA-vCA"/>
+                            <constraint firstItem="xPA-hE-Ww1" firstAttribute="leading" secondItem="5iu-W3-01v" secondAttribute="leading" id="8EG-Fl-3jR"/>
+                            <constraint firstItem="5iu-W3-01v" firstAttribute="centerY" secondItem="4kF-iK-bNb" secondAttribute="centerY" id="8rT-wT-cPa"/>
+                            <constraint firstItem="L8f-zL-j6I" firstAttribute="leading" secondItem="4kF-iK-bNb" secondAttribute="leadingMargin" id="GBA-Vi-4dd"/>
+                            <constraint firstItem="L8f-zL-j6I" firstAttribute="bottom" secondItem="4kF-iK-bNb" secondAttribute="bottomMargin" id="QKP-Lo-vXH"/>
+                            <constraint firstItem="xPA-hE-Ww1" firstAttribute="trailing" secondItem="5iu-W3-01v" secondAttribute="trailing" id="gaR-vt-jkY"/>
+                            <constraint firstItem="2V3-Gg-8cc" firstAttribute="trailing" secondItem="4kF-iK-bNb" secondAttribute="trailingMargin" id="h03-27-vwN"/>
+                            <constraint firstItem="xPA-hE-Ww1" firstAttribute="bottom" secondItem="5iu-W3-01v" secondAttribute="bottom" id="ifN-t2-mzc"/>
+                            <constraint firstItem="L8f-zL-j6I" firstAttribute="top" secondItem="2V3-Gg-8cc" secondAttribute="top" id="ksE-mr-hLO"/>
+                            <constraint firstItem="2V3-Gg-8cc" firstAttribute="leading" secondItem="L8f-zL-j6I" secondAttribute="trailing" constant="8" id="wIf-KU-aYD"/>
+                            <constraint firstItem="L8f-zL-j6I" firstAttribute="bottom" secondItem="2V3-Gg-8cc" secondAttribute="bottom" id="wT4-qF-aD8"/>
+                            <constraint firstItem="5iu-W3-01v" firstAttribute="top" secondItem="4kF-iK-bNb" secondAttribute="top" id="xVx-zN-D4w"/>
+                            <constraint firstItem="5iu-W3-01v" firstAttribute="centerX" secondItem="4kF-iK-bNb" secondAttribute="centerX" id="z1b-Dr-nlj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4kF-iK-bNb" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="BLO-r0-1iy"/>
+                <constraint firstItem="4kF-iK-bNb" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Pua-cN-DhY"/>
+                <constraint firstItem="4kF-iK-bNb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pPo-ym-kNo"/>
+                <constraint firstItem="4kF-iK-bNb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vPb-TN-9kS"/>
+            </constraints>
+            <size key="customSize" width="179" height="240"/>
+            <connections>
+                <outlet property="audioStatusIcon" destination="L8f-zL-j6I" id="8qF-pY-WeH"/>
+                <outlet property="noSignal_view" destination="xPA-hE-Ww1" id="2ix-mf-FeO"/>
+                <outlet property="username_label" destination="2V3-Gg-8cc" id="e7l-FF-Fvf"/>
+                <outlet property="videoView" destination="5iu-W3-01v" id="PL6-mD-WEJ"/>
+            </connections>
+            <point key="canvasLocation" x="225.36231884057972" y="171.42857142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="meeting_listMember_unmute" width="40" height="52"/>
+        <image name="meeting_member_no_record_icon" width="44" height="36"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

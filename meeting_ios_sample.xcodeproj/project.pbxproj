@@ -1,0 +1,1549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1AB36A0F8D7A939E61111E /* Pods_meeting_ios_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929AE990B35486B409841122 /* Pods_meeting_ios_sample.framework */; };
+		B401B97C27181AB6004A18E1 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B401B97A27181AB6004A18E1 /* RootNavigationController.m */; };
+		B401FEF627054A0C001DE31A /* GroupChooseMember.xib in Resources */ = {isa = PBXBuildFile; fileRef = B401FEF527054A0C001DE31A /* GroupChooseMember.xib */; };
+		B401FEF827054E40001DE31A /* GroupChooseMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401FEF727054E40001DE31A /* GroupChooseMemberView.swift */; };
+		B401FEFB270552AD001DE31A /* GroupMemberChooseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401FEF9270552AD001DE31A /* GroupMemberChooseListCell.swift */; };
+		B401FEFC270552AD001DE31A /* GroupMemberChooseListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B401FEFA270552AD001DE31A /* GroupMemberChooseListCell.xib */; };
+		B40A5E9227006178007016D7 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A5E9027006178007016D7 /* GroupViewController.swift */; };
+		B40A5E9327006178007016D7 /* GroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40A5E9127006178007016D7 /* GroupViewController.xib */; };
+		B41A9B232716708300F641C4 /* ScreenShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A9B212716708300F641C4 /* ScreenShareViewController.swift */; };
+		B41A9B242716708300F641C4 /* ScreenShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41A9B222716708300F641C4 /* ScreenShareViewController.xib */; };
+		B42757F62701B38400482CD5 /* GroupMemberListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42757F42701B38400482CD5 /* GroupMemberListCell.swift */; };
+		B42757F72701B38400482CD5 /* GroupMemberListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42757F52701B38400482CD5 /* GroupMemberListCell.xib */; };
+		B42757FA2701B70F00482CD5 /* GroupMenuListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42757F82701B70F00482CD5 /* GroupMenuListViewCell.swift */; };
+		B42757FB2701B70F00482CD5 /* GroupMenuListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42757F92701B70F00482CD5 /* GroupMenuListViewCell.xib */; };
+		B43E050A26E5A9DE002D9873 /* FastMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E050826E5A9DE002D9873 /* FastMeetingViewController.swift */; };
+		B43E050B26E5A9DE002D9873 /* FastMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43E050926E5A9DE002D9873 /* FastMeetingViewController.xib */; };
+		B43E050F26E5F536002D9873 /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E050D26E5F536002D9873 /* MeetingViewController.swift */; };
+		B43E051026E5F536002D9873 /* MeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43E050E26E5F536002D9873 /* MeetingViewController.xib */; };
+		B43E051526E603B3002D9873 /* VideoDisplayViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E051326E603B3002D9873 /* VideoDisplayViewCell.swift */; };
+		B43E051626E603B3002D9873 /* VideoDisplayViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43E051426E603B3002D9873 /* VideoDisplayViewCell.xib */; };
+		B43E051826E60B67002D9873 /* CLS_JsonParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E051726E60B67002D9873 /* CLS_JsonParse.swift */; };
+		B43E051B26E61669002D9873 /* MenuItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E051926E61669002D9873 /* MenuItemViewCell.swift */; };
+		B43E051C26E61669002D9873 /* MenuItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43E051A26E61669002D9873 /* MenuItemViewCell.xib */; };
+		B449999C26DDC7FB0039FF59 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449999A26DDC7FB0039FF59 /* RegisterViewController.swift */; };
+		B449999D26DDC7FB0039FF59 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B449999B26DDC7FB0039FF59 /* RegisterViewController.xib */; };
+		B44999A126DE07D20039FF59 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44999A026DE07D20039FF59 /* CoreMedia.framework */; };
+		B44999A326DE07DA0039FF59 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44999A226DE07DA0039FF59 /* ImageIO.framework */; };
+		B44999A526DE086C0039FF59 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44999A426DE086C0039FF59 /* ReplayKit.framework */; };
+		B44999A826DE0AC60039FF59 /* MeetingAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44999A726DE0AC60039FF59 /* MeetingAPIRequest.swift */; };
+		B4557A322720FA0100AC7B4B /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44999A426DE086C0039FF59 /* ReplayKit.framework */; };
+		B4557A352720FA0100AC7B4B /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4557A342720FA0100AC7B4B /* SampleHandler.swift */; };
+		B4557A402720FBDC00AC7B4B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E707CD271FF41000A768DA /* libc++.tbd */; };
+		B4557A412720FBE700AC7B4B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E707CF271FF44800A768DA /* Accelerate.framework */; };
+		B4557A432720FBFB00AC7B4B /* Accessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4557A422720FBFB00AC7B4B /* Accessibility.framework */; };
+		B4557A442720FD1A00AC7B4B /* MeetingSampleShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4557A312720FA0100AC7B4B /* MeetingSampleShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B45E9B8A26E6FECC004D4B14 /* MeetingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E9B8926E6FECC004D4B14 /* MeetingUtils.swift */; };
+		B45E9B8C26E70EA3004D4B14 /* SampleMeetingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E9B8B26E70EA3004D4B14 /* SampleMeetingManager.swift */; };
+		B476445126F58D7100A66371 /* WhiteBroadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476444F26F58D7100A66371 /* WhiteBroadViewController.swift */; };
+		B476445226F58D7100A66371 /* WhiteBroadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B476445026F58D7100A66371 /* WhiteBroadViewController.xib */; };
+		B476445526F5B63200A66371 /* WhiteboardMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476445326F5B63200A66371 /* WhiteboardMenuCell.swift */; };
+		B476445626F5B63200A66371 /* WhiteboardMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B476445426F5B63200A66371 /* WhiteboardMenuCell.xib */; };
+		B476445926F5D32900A66371 /* WhiteboardColorMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476445726F5D32900A66371 /* WhiteboardColorMenuCell.swift */; };
+		B476445A26F5D32900A66371 /* WhiteboardColorMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B476445826F5D32900A66371 /* WhiteboardColorMenuCell.xib */; };
+		B49087C126E20B8B00978C59 /* JoinMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49087BF26E20B8B00978C59 /* JoinMeetingViewController.swift */; };
+		B49087C226E20B8B00978C59 /* JoinMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49087C026E20B8B00978C59 /* JoinMeetingViewController.xib */; };
+		B49921A02703F3A500EDEED4 /* GroupSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B499219F2703F3A500EDEED4 /* GroupSectionHeaderView.swift */; };
+		B4A1D86626F193900036923A /* RTMControlChannalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D86526F193900036923A /* RTMControlChannalModel.swift */; };
+		B4A1D87826F19A680036923A /* MeetingChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D86926F19A680036923A /* MeetingChatViewController.m */; };
+		B4A1D87926F19A680036923A /* MeetingChatPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D86A26F19A680036923A /* MeetingChatPopoverView.m */; };
+		B4A1D87A26F19A680036923A /* MeetingChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D86E26F19A680036923A /* MeetingChatMessageCell.m */; };
+		B4A1D87B26F19A680036923A /* MeetingChatBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D86F26F19A680036923A /* MeetingChatBaseView.m */; };
+		B4A1D87C26F19A680036923A /* MeetingChatMessageTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D87226F19A680036923A /* MeetingChatMessageTimeCell.m */; };
+		B4A1D87D26F19A680036923A /* MeetChatRoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D87326F19A680036923A /* MeetChatRoomView.m */; };
+		B4A1D87E26F19A680036923A /* MeetingChatInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D87426F19A680036923A /* MeetingChatInputView.m */; };
+		B4A1D88226F1A5B40036923A /* MeetingMenuBaseTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D88126F1A5B40036923A /* MeetingMenuBaseTopView.m */; };
+		B4A1D88626F1BF4F0036923A /* MeetingChatMessageDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D88526F1BF4F0036923A /* MeetingChatMessageDataModel.m */; };
+		B4A1D88926F1BF850036923A /* MeetingMenuHeaderBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D88826F1BF840036923A /* MeetingMenuHeaderBarView.m */; };
+		B4A1D88C26F1BFAA0036923A /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D88A26F1BFAA0036923A /* NSDate+Extend.m */; };
+		B4A1D88F26F1D25F0036923A /* RoomUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A1D88E26F1D25F0036923A /* RoomUserInfoModel.m */; };
+		B4A601A326E89A3400642935 /* MeetingManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A601A226E89A3400642935 /* MeetingManagerDelegate.swift */; };
+		B4BDF01E270FD5B300636A1C /* msyh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4BDF01D270FD5B300636A1C /* msyh.ttf */; };
+		B4BDF021271031F300636A1C /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BDF01F271031F300636A1C /* MemberViewController.swift */; };
+		B4BDF022271031F300636A1C /* MemberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BDF020271031F300636A1C /* MemberViewController.xib */; };
+		B4BDF0252710380C00636A1C /* MemberListMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BDF0232710380C00636A1C /* MemberListMenuCell.swift */; };
+		B4BDF0262710380C00636A1C /* MemberListMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BDF0242710380C00636A1C /* MemberListMenuCell.xib */; };
+		B4C55DAE26DCE93D001A08CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C55DAD26DCE93D001A08CF /* AppDelegate.swift */; };
+		B4C55DB226DCE93D001A08CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C55DB126DCE93D001A08CF /* ViewController.swift */; };
+		B4C55DB526DCE93D001A08CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C55DB326DCE93D001A08CF /* Main.storyboard */; };
+		B4C55DB726DCE93F001A08CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C55DB626DCE93F001A08CF /* Assets.xcassets */; };
+		B4C55DBA26DCE93F001A08CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4C55DB826DCE93F001A08CF /* LaunchScreen.storyboard */; };
+		B4C55DC926DCEF10001A08CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C55DC726DCEF10001A08CF /* LoginViewController.swift */; };
+		B4C55DCA26DCEF10001A08CF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C55DC826DCEF10001A08CF /* LoginViewController.xib */; };
+		B4D1593426DF29DB00E1201A /* cloud_lvb_sdk_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D1593326DF29DB00E1201A /* cloud_lvb_sdk_ios.framework */; };
+		B4D1593726DF5E8200E1201A /* LoginUserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1593626DF5E8200E1201A /* LoginUserDataModel.swift */; };
+		B4D1593D26DF6E1300E1201A /* MeetingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1593B26DF6E1300E1201A /* MeetingListCell.swift */; };
+		B4D1593E26DF6E1300E1201A /* MeetingListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D1593C26DF6E1300E1201A /* MeetingListCell.xib */; };
+		B4D67A8127228995007E6AF9 /* CLS_ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D67A8027228994007E6AF9 /* CLS_ShareSDK.framework */; };
+		B4DFC87B26E99F6B008EB00C /* VoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86226E99F6B008EB00C /* VoteViewModel.swift */; };
+		B4DFC87C26E99F6B008EB00C /* VoteResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86426E99F6B008EB00C /* VoteResultController.swift */; };
+		B4DFC87D26E99F6B008EB00C /* VoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86526E99F6B008EB00C /* VoteController.swift */; };
+		B4DFC87E26E99F6B008EB00C /* VotePublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86626E99F6B008EB00C /* VotePublishViewController.swift */; };
+		B4DFC87F26E99F6B008EB00C /* CreatVoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86726E99F6B008EB00C /* CreatVoteController.swift */; };
+		B4DFC88026E99F6B008EB00C /* UserResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86826E99F6B008EB00C /* UserResultController.swift */; };
+		B4DFC88126E99F6B008EB00C /* VoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86926E99F6B008EB00C /* VoteListViewController.swift */; };
+		B4DFC88226E99F6B008EB00C /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86B26E99F6B008EB00C /* ResponseModel.swift */; };
+		B4DFC88326E99F6B008EB00C /* VoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86C26E99F6B008EB00C /* VoteModel.swift */; };
+		B4DFC88426E99F6B008EB00C /* VoteResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86E26E99F6B008EB00C /* VoteResultCell.swift */; };
+		B4DFC88526E99F6B008EB00C /* VoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86F26E99F6B008EB00C /* VoteCell.swift */; };
+		B4DFC88626E99F6B008EB00C /* VoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87026E99F6B008EB00C /* VoteView.swift */; };
+		B4DFC88726E99F6B008EB00C /* VoteResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87126E99F6B008EB00C /* VoteResultView.swift */; };
+		B4DFC88826E99F6B008EB00C /* CreatVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87226E99F6B008EB00C /* CreatVoteView.swift */; };
+		B4DFC88926E99F6B008EB00C /* CommonSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87326E99F6B008EB00C /* CommonSlider.swift */; };
+		B4DFC88A26E99F6B008EB00C /* CreatVoteHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87426E99F6B008EB00C /* CreatVoteHeaderView.swift */; };
+		B4DFC88B26E99F6B008EB00C /* CreatVoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87526E99F6B008EB00C /* CreatVoteCell.swift */; };
+		B4DFC88C26E99F6B008EB00C /* VoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87626E99F6B008EB00C /* VoteListView.swift */; };
+		B4DFC88D26E99F6B008EB00C /* VoteUserResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87726E99F6B008EB00C /* VoteUserResultCell.swift */; };
+		B4DFC88E26E99F6B008EB00C /* VoteUserResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87826E99F6B008EB00C /* VoteUserResultView.swift */; };
+		B4DFC88F26E99F6B008EB00C /* VoteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87926E99F6B008EB00C /* VoteListCell.swift */; };
+		B4DFC89026E99F6B008EB00C /* VotePublishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC87A26E99F6B008EB00C /* VotePublishView.swift */; };
+		B4E707D7271FFFA200A768DA /* MeetingScreenShareNotifyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E707D6271FFFA200A768DA /* MeetingScreenShareNotifyModel.m */; };
+		B4E7849C270161AF00CF234A /* MemberListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E7849A270161AF00CF234A /* MemberListViewCell.swift */; };
+		B4E7849D270161AF00CF234A /* MemberListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E7849B270161AF00CF234A /* MemberListViewCell.xib */; };
+		B4F479C426E0634700B84BA8 /* MeetingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F479C326E0634700B84BA8 /* MeetingDataModel.swift */; };
+		B4F479C726E0B3B200B84BA8 /* ReserveMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F479C526E0B3B200B84BA8 /* ReserveMeetingViewController.swift */; };
+		B4F479C826E0B3B200B84BA8 /* ReserveMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F479C626E0B3B200B84BA8 /* ReserveMeetingViewController.xib */; };
+		B4F479CC26E0D06900B84BA8 /* BHXPikerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F479CB26E0D06900B84BA8 /* BHXPikerView.m */; };
+		B4FB79E526F48D200049DE2A /* DrawLineControlInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB799A26F48D200049DE2A /* DrawLineControlInfoModel.m */; };
+		B4FB79E626F48D200049DE2A /* WhiteboardMessageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB799C26F48D200049DE2A /* WhiteboardMessageInfoModel.m */; };
+		B4FB79E726F48D200049DE2A /* DrawShapeControlInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB799E26F48D200049DE2A /* DrawShapeControlInfoModel.m */; };
+		B4FB79E826F48D200049DE2A /* DrawPageHistoryDataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79A126F48D200049DE2A /* DrawPageHistoryDataInfo.m */; };
+		B4FB79E926F48D200049DE2A /* DrawPageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79A426F48D200049DE2A /* DrawPageInfoModel.m */; };
+		B4FB79EA26F48D200049DE2A /* DrawPageRevokeInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79A526F48D200049DE2A /* DrawPageRevokeInfoModel.m */; };
+		B4FB79EB26F48D200049DE2A /* DXZEducationRevokeInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79A626F48D200049DE2A /* DXZEducationRevokeInfoModel.m */; };
+		B4FB79ED26F48D200049DE2A /* ZHDrawingLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79AF26F48D200049DE2A /* ZHDrawingLineLayer.m */; };
+		B4FB79EE26F48D200049DE2A /* ZHDTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79B026F48D200049DE2A /* ZHDTextLayer.m */; };
+		B4FB79EF26F48D200049DE2A /* ZHDrawingCuboidLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79B126F48D200049DE2A /* ZHDrawingCuboidLayer.m */; };
+		B4FB79F026F48D200049DE2A /* ZHDrawingRighTangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79B226F48D200049DE2A /* ZHDrawingRighTangleLayer.m */; };
+		B4FB79F126F48D200049DE2A /* ZHDrawingSphereLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79B526F48D200049DE2A /* ZHDrawingSphereLayer.m */; };
+		B4FB79F226F48D200049DE2A /* ZHDrawingAxisLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79B626F48D200049DE2A /* ZHDrawingAxisLayer.m */; };
+		B4FB79F326F48D200049DE2A /* ZHDrawingHexagonLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79B826F48D200049DE2A /* ZHDrawingHexagonLayer.m */; };
+		B4FB79F426F48D200049DE2A /* ZHDrawingDottedlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79B926F48D200049DE2A /* ZHDrawingDottedlineLayer.m */; };
+		B4FB79F526F48D200049DE2A /* ZHDrawingThreeDCoordinateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79BA26F48D200049DE2A /* ZHDrawingThreeDCoordinateLayer.m */; };
+		B4FB79F626F48D200049DE2A /* ZHDrawingTriangularPyramidLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79BB26F48D200049DE2A /* ZHDrawingTriangularPyramidLayer.m */; };
+		B4FB79F726F48D200049DE2A /* ZHDrawingRegularPolygonLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79BE26F48D200049DE2A /* ZHDrawingRegularPolygonLayer.m */; };
+		B4FB79F826F48D200049DE2A /* ZHDrawingRectLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79BF26F48D200049DE2A /* ZHDrawingRectLayer.m */; };
+		B4FB79F926F48D200049DE2A /* ZHDrawingTriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79C026F48D200049DE2A /* ZHDrawingTriangleLayer.m */; };
+		B4FB79FA26F48D200049DE2A /* ZHDrawingRhombusLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79C126F48D200049DE2A /* ZHDrawingRhombusLayer.m */; };
+		B4FB79FB26F48D200049DE2A /* ZHDrawingArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79C226F48D200049DE2A /* ZHDrawingArcLayer.m */; };
+		B4FB79FC26F48D200049DE2A /* ZHDrawingCosineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79C326F48D200049DE2A /* ZHDrawingCosineLayer.m */; };
+		B4FB79FD26F48D200049DE2A /* ZHDrawingGraffitiLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79C926F48D200049DE2A /* ZHDrawingGraffitiLayer.m */; };
+		B4FB79FE26F48D200049DE2A /* ZHDrawingCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79CA26F48D200049DE2A /* ZHDrawingCircleLayer.m */; };
+		B4FB79FF26F48D200049DE2A /* ZHDrawingArrowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79CC26F48D200049DE2A /* ZHDrawingArrowLayer.m */; };
+		B4FB7A0026F48D200049DE2A /* ZHDrawingOvalLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79CD26F48D200049DE2A /* ZHDrawingOvalLayer.m */; };
+		B4FB7A0126F48D200049DE2A /* ZHDrawingRulerLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79D026F48D200049DE2A /* ZHDrawingRulerLineLayer.m */; };
+		B4FB7A0226F48D200049DE2A /* ZHDrawingPentagonLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79D426F48D200049DE2A /* ZHDrawingPentagonLayer.m */; };
+		B4FB7A0326F48D200049DE2A /* ZHDrawingTrapezoidLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79D726F48D200049DE2A /* ZHDrawingTrapezoidLayer.m */; };
+		B4FB7A0426F48D210049DE2A /* ZHDrawingRulerArrowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79D926F48D200049DE2A /* ZHDrawingRulerArrowLayer.m */; };
+		B4FB7A0526F48D210049DE2A /* ZHDrawingCylinderLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79DA26F48D200049DE2A /* ZHDrawingCylinderLayer.m */; };
+		B4FB7A0626F48D210049DE2A /* ZHDrawingConeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79DF26F48D200049DE2A /* ZHDrawingConeLayer.m */; };
+		B4FB7A0726F48D210049DE2A /* WhiteboardPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79E226F48D200049DE2A /* WhiteboardPageView.m */; };
+		B4FB7A0826F48D210049DE2A /* ZHFigureDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79E326F48D200049DE2A /* ZHFigureDrawingView.m */; };
+		B4FB7A0926F48D210049DE2A /* ZHFigureDrawingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB79E426F48D200049DE2A /* ZHFigureDrawingLayer.m */; };
+		B4FB7A0D26F48DE70049DE2A /* WhiteboardToolsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB7A0C26F48DE70049DE2A /* WhiteboardToolsModel.m */; };
+		F889D5092ADE38C9088FFDEE /* Pods_MeetingSample_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DD38B46055F0B1F231DFDC /* Pods_MeetingSample_Share.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4557A452720FD1A00AC7B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4C55DA226DCE93D001A08CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4557A302720FA0100AC7B4B;
+			remoteInfo = MeetingSample_Share;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4557A472720FD1B00AC7B4B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B4557A442720FD1A00AC7B4B /* MeetingSampleShare.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E6F1AB934AFD95590CDDEF1 /* Pods-MeetingSample_Share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingSample_Share.release.xcconfig"; path = "Target Support Files/Pods-MeetingSample_Share/Pods-MeetingSample_Share.release.xcconfig"; sourceTree = "<group>"; };
+		778C52B5F637155198523EBD /* Pods-meeting_ios_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeting_ios_sample.debug.xcconfig"; path = "Target Support Files/Pods-meeting_ios_sample/Pods-meeting_ios_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		929AE990B35486B409841122 /* Pods_meeting_ios_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meeting_ios_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B401B97A27181AB6004A18E1 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		B401B97B27181AB6004A18E1 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		B401FEF527054A0C001DE31A /* GroupChooseMember.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupChooseMember.xib; sourceTree = "<group>"; };
+		B401FEF727054E40001DE31A /* GroupChooseMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChooseMemberView.swift; sourceTree = "<group>"; };
+		B401FEF9270552AD001DE31A /* GroupMemberChooseListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMemberChooseListCell.swift; sourceTree = "<group>"; };
+		B401FEFA270552AD001DE31A /* GroupMemberChooseListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupMemberChooseListCell.xib; sourceTree = "<group>"; };
+		B40A5E9027006178007016D7 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		B40A5E9127006178007016D7 /* GroupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupViewController.xib; sourceTree = "<group>"; };
+		B41A9B212716708300F641C4 /* ScreenShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShareViewController.swift; sourceTree = "<group>"; };
+		B41A9B222716708300F641C4 /* ScreenShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenShareViewController.xib; sourceTree = "<group>"; };
+		B42757F42701B38400482CD5 /* GroupMemberListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMemberListCell.swift; sourceTree = "<group>"; };
+		B42757F52701B38400482CD5 /* GroupMemberListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupMemberListCell.xib; sourceTree = "<group>"; };
+		B42757F82701B70F00482CD5 /* GroupMenuListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMenuListViewCell.swift; sourceTree = "<group>"; };
+		B42757F92701B70F00482CD5 /* GroupMenuListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupMenuListViewCell.xib; sourceTree = "<group>"; };
+		B43E050826E5A9DE002D9873 /* FastMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastMeetingViewController.swift; sourceTree = "<group>"; };
+		B43E050926E5A9DE002D9873 /* FastMeetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FastMeetingViewController.xib; sourceTree = "<group>"; };
+		B43E050D26E5F536002D9873 /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		B43E050E26E5F536002D9873 /* MeetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingViewController.xib; sourceTree = "<group>"; };
+		B43E051326E603B3002D9873 /* VideoDisplayViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDisplayViewCell.swift; sourceTree = "<group>"; };
+		B43E051426E603B3002D9873 /* VideoDisplayViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoDisplayViewCell.xib; sourceTree = "<group>"; };
+		B43E051726E60B67002D9873 /* CLS_JsonParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLS_JsonParse.swift; sourceTree = "<group>"; };
+		B43E051926E61669002D9873 /* MenuItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewCell.swift; sourceTree = "<group>"; };
+		B43E051A26E61669002D9873 /* MenuItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemViewCell.xib; sourceTree = "<group>"; };
+		B449999A26DDC7FB0039FF59 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B449999B26DDC7FB0039FF59 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		B44999A026DE07D20039FF59 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B44999A226DE07DA0039FF59 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B44999A426DE086C0039FF59 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		B44999A726DE0AC60039FF59 /* MeetingAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingAPIRequest.swift; sourceTree = "<group>"; };
+		B4557A212720F7B600AC7B4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4557A312720FA0100AC7B4B /* MeetingSampleShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MeetingSampleShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4557A342720FA0100AC7B4B /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		B4557A362720FA0100AC7B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4557A422720FBFB00AC7B4B /* Accessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accessibility.framework; path = System/Library/Frameworks/Accessibility.framework; sourceTree = SDKROOT; };
+		B4557A482721067800AC7B4B /* MeetingSampleShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetingSampleShare.entitlements; sourceTree = "<group>"; };
+		B45E9B8926E6FECC004D4B14 /* MeetingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingUtils.swift; sourceTree = "<group>"; };
+		B45E9B8B26E70EA3004D4B14 /* SampleMeetingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMeetingManager.swift; sourceTree = "<group>"; };
+		B476444F26F58D7100A66371 /* WhiteBroadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBroadViewController.swift; sourceTree = "<group>"; };
+		B476445026F58D7100A66371 /* WhiteBroadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhiteBroadViewController.xib; sourceTree = "<group>"; };
+		B476445326F5B63200A66371 /* WhiteboardMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteboardMenuCell.swift; sourceTree = "<group>"; };
+		B476445426F5B63200A66371 /* WhiteboardMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhiteboardMenuCell.xib; sourceTree = "<group>"; };
+		B476445726F5D32900A66371 /* WhiteboardColorMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteboardColorMenuCell.swift; sourceTree = "<group>"; };
+		B476445826F5D32900A66371 /* WhiteboardColorMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhiteboardColorMenuCell.xib; sourceTree = "<group>"; };
+		B49087BF26E20B8B00978C59 /* JoinMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinMeetingViewController.swift; sourceTree = "<group>"; };
+		B49087C026E20B8B00978C59 /* JoinMeetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JoinMeetingViewController.xib; sourceTree = "<group>"; };
+		B4963169272106D000AAAAF2 /* meeting_ios_sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = meeting_ios_sample.entitlements; sourceTree = "<group>"; };
+		B499219F2703F3A500EDEED4 /* GroupSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSectionHeaderView.swift; sourceTree = "<group>"; };
+		B4A1D86526F193900036923A /* RTMControlChannalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTMControlChannalModel.swift; sourceTree = "<group>"; };
+		B4A1D86826F19A680036923A /* MeetingChatMessageTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingChatMessageTimeCell.h; sourceTree = "<group>"; };
+		B4A1D86926F19A680036923A /* MeetingChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingChatViewController.m; sourceTree = "<group>"; };
+		B4A1D86A26F19A680036923A /* MeetingChatPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingChatPopoverView.m; sourceTree = "<group>"; };
+		B4A1D86B26F19A680036923A /* MeetingChatInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingChatInputView.h; sourceTree = "<group>"; };
+		B4A1D86C26F19A680036923A /* MeetChatRoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetChatRoomView.h; sourceTree = "<group>"; };
+		B4A1D86E26F19A680036923A /* MeetingChatMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingChatMessageCell.m; sourceTree = "<group>"; };
+		B4A1D86F26F19A680036923A /* MeetingChatBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingChatBaseView.m; sourceTree = "<group>"; };
+		B4A1D87026F19A680036923A /* MeetingChatPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingChatPopoverView.h; sourceTree = "<group>"; };
+		B4A1D87126F19A680036923A /* MeetingChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingChatViewController.h; sourceTree = "<group>"; };
+		B4A1D87226F19A680036923A /* MeetingChatMessageTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingChatMessageTimeCell.m; sourceTree = "<group>"; };
+		B4A1D87326F19A680036923A /* MeetChatRoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetChatRoomView.m; sourceTree = "<group>"; };
+		B4A1D87426F19A680036923A /* MeetingChatInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingChatInputView.m; sourceTree = "<group>"; };
+		B4A1D87626F19A680036923A /* MeetingChatBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingChatBaseView.h; sourceTree = "<group>"; };
+		B4A1D87726F19A680036923A /* MeetingChatMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingChatMessageCell.h; sourceTree = "<group>"; };
+		B4A1D88026F1A5B40036923A /* MeetingMenuBaseTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingMenuBaseTopView.h; sourceTree = "<group>"; };
+		B4A1D88126F1A5B40036923A /* MeetingMenuBaseTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingMenuBaseTopView.m; sourceTree = "<group>"; };
+		B4A1D88426F1BF4F0036923A /* MeetingChatMessageDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingChatMessageDataModel.h; sourceTree = "<group>"; };
+		B4A1D88526F1BF4F0036923A /* MeetingChatMessageDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingChatMessageDataModel.m; sourceTree = "<group>"; };
+		B4A1D88726F1BF840036923A /* MeetingMenuHeaderBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingMenuHeaderBarView.h; sourceTree = "<group>"; };
+		B4A1D88826F1BF840036923A /* MeetingMenuHeaderBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingMenuHeaderBarView.m; sourceTree = "<group>"; };
+		B4A1D88A26F1BFAA0036923A /* NSDate+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extend.m"; sourceTree = "<group>"; };
+		B4A1D88B26F1BFAA0036923A /* NSDate+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extend.h"; sourceTree = "<group>"; };
+		B4A1D88D26F1D25F0036923A /* RoomUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomUserInfoModel.h; sourceTree = "<group>"; };
+		B4A1D88E26F1D25F0036923A /* RoomUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomUserInfoModel.m; sourceTree = "<group>"; };
+		B4A601A226E89A3400642935 /* MeetingManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingManagerDelegate.swift; sourceTree = "<group>"; };
+		B4BDF01D270FD5B300636A1C /* msyh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msyh.ttf; sourceTree = "<group>"; };
+		B4BDF01F271031F300636A1C /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		B4BDF020271031F300636A1C /* MemberViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberViewController.xib; sourceTree = "<group>"; };
+		B4BDF0232710380C00636A1C /* MemberListMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListMenuCell.swift; sourceTree = "<group>"; };
+		B4BDF0242710380C00636A1C /* MemberListMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberListMenuCell.xib; sourceTree = "<group>"; };
+		B4C55DAA26DCE93D001A08CF /* meeting_ios_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meeting_ios_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C55DAD26DCE93D001A08CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4C55DB126DCE93D001A08CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4C55DB426DCE93D001A08CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4C55DB626DCE93F001A08CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4C55DB926DCE93F001A08CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4C55DBB26DCE93F001A08CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C55DC726DCEF10001A08CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B4C55DC826DCEF10001A08CF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B4D1593326DF29DB00E1201A /* cloud_lvb_sdk_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = cloud_lvb_sdk_ios.framework; sourceTree = "<group>"; };
+		B4D1593626DF5E8200E1201A /* LoginUserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserDataModel.swift; sourceTree = "<group>"; };
+		B4D1593B26DF6E1300E1201A /* MeetingListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListCell.swift; sourceTree = "<group>"; };
+		B4D1593C26DF6E1300E1201A /* MeetingListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingListCell.xib; sourceTree = "<group>"; };
+		B4D67A8027228994007E6AF9 /* CLS_ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLS_ShareSDK.framework; sourceTree = "<group>"; };
+		B4DFC86226E99F6B008EB00C /* VoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteViewModel.swift; sourceTree = "<group>"; };
+		B4DFC86426E99F6B008EB00C /* VoteResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteResultController.swift; sourceTree = "<group>"; };
+		B4DFC86526E99F6B008EB00C /* VoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteController.swift; sourceTree = "<group>"; };
+		B4DFC86626E99F6B008EB00C /* VotePublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotePublishViewController.swift; sourceTree = "<group>"; };
+		B4DFC86726E99F6B008EB00C /* CreatVoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatVoteController.swift; sourceTree = "<group>"; };
+		B4DFC86826E99F6B008EB00C /* UserResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserResultController.swift; sourceTree = "<group>"; };
+		B4DFC86926E99F6B008EB00C /* VoteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteListViewController.swift; sourceTree = "<group>"; };
+		B4DFC86B26E99F6B008EB00C /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		B4DFC86C26E99F6B008EB00C /* VoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteModel.swift; sourceTree = "<group>"; };
+		B4DFC86E26E99F6B008EB00C /* VoteResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteResultCell.swift; sourceTree = "<group>"; };
+		B4DFC86F26E99F6B008EB00C /* VoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteCell.swift; sourceTree = "<group>"; };
+		B4DFC87026E99F6B008EB00C /* VoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteView.swift; sourceTree = "<group>"; };
+		B4DFC87126E99F6B008EB00C /* VoteResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteResultView.swift; sourceTree = "<group>"; };
+		B4DFC87226E99F6B008EB00C /* CreatVoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatVoteView.swift; sourceTree = "<group>"; };
+		B4DFC87326E99F6B008EB00C /* CommonSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSlider.swift; sourceTree = "<group>"; };
+		B4DFC87426E99F6B008EB00C /* CreatVoteHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatVoteHeaderView.swift; sourceTree = "<group>"; };
+		B4DFC87526E99F6B008EB00C /* CreatVoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatVoteCell.swift; sourceTree = "<group>"; };
+		B4DFC87626E99F6B008EB00C /* VoteListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteListView.swift; sourceTree = "<group>"; };
+		B4DFC87726E99F6B008EB00C /* VoteUserResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteUserResultCell.swift; sourceTree = "<group>"; };
+		B4DFC87826E99F6B008EB00C /* VoteUserResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteUserResultView.swift; sourceTree = "<group>"; };
+		B4DFC87926E99F6B008EB00C /* VoteListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteListCell.swift; sourceTree = "<group>"; };
+		B4DFC87A26E99F6B008EB00C /* VotePublishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotePublishView.swift; sourceTree = "<group>"; };
+		B4E707CD271FF41000A768DA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B4E707CF271FF44800A768DA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B4E707D5271FFFA200A768DA /* MeetingScreenShareNotifyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingScreenShareNotifyModel.h; sourceTree = "<group>"; };
+		B4E707D6271FFFA200A768DA /* MeetingScreenShareNotifyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingScreenShareNotifyModel.m; sourceTree = "<group>"; };
+		B4E7849A270161AF00CF234A /* MemberListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListViewCell.swift; sourceTree = "<group>"; };
+		B4E7849B270161AF00CF234A /* MemberListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberListViewCell.xib; sourceTree = "<group>"; };
+		B4F479C326E0634700B84BA8 /* MeetingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDataModel.swift; sourceTree = "<group>"; };
+		B4F479C526E0B3B200B84BA8 /* ReserveMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveMeetingViewController.swift; sourceTree = "<group>"; };
+		B4F479C626E0B3B200B84BA8 /* ReserveMeetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReserveMeetingViewController.xib; sourceTree = "<group>"; };
+		B4F479C926E0D06800B84BA8 /* meeting_ios_sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "meeting_ios_sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		B4F479CA26E0D06800B84BA8 /* BHXPikerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHXPikerView.h; sourceTree = "<group>"; };
+		B4F479CB26E0D06900B84BA8 /* BHXPikerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHXPikerView.m; sourceTree = "<group>"; };
+		B4FB799826F48D200049DE2A /* WhiteboardPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteboardPageView.h; sourceTree = "<group>"; };
+		B4FB799A26F48D200049DE2A /* DrawLineControlInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineControlInfoModel.m; sourceTree = "<group>"; };
+		B4FB799B26F48D200049DE2A /* DrawPageHistoryDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPageHistoryDataInfo.h; sourceTree = "<group>"; };
+		B4FB799C26F48D200049DE2A /* WhiteboardMessageInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteboardMessageInfoModel.m; sourceTree = "<group>"; };
+		B4FB799D26F48D200049DE2A /* DrawPageInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPageInfoModel.h; sourceTree = "<group>"; };
+		B4FB799E26F48D200049DE2A /* DrawShapeControlInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawShapeControlInfoModel.m; sourceTree = "<group>"; };
+		B4FB799F26F48D200049DE2A /* DXZEducationRevokeInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXZEducationRevokeInfoModel.h; sourceTree = "<group>"; };
+		B4FB79A026F48D200049DE2A /* DrawPageRevokeInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPageRevokeInfoModel.h; sourceTree = "<group>"; };
+		B4FB79A126F48D200049DE2A /* DrawPageHistoryDataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPageHistoryDataInfo.m; sourceTree = "<group>"; };
+		B4FB79A226F48D200049DE2A /* DrawLineControlInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineControlInfoModel.h; sourceTree = "<group>"; };
+		B4FB79A326F48D200049DE2A /* WhiteboardMessageInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteboardMessageInfoModel.h; sourceTree = "<group>"; };
+		B4FB79A426F48D200049DE2A /* DrawPageInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPageInfoModel.m; sourceTree = "<group>"; };
+		B4FB79A526F48D200049DE2A /* DrawPageRevokeInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPageRevokeInfoModel.m; sourceTree = "<group>"; };
+		B4FB79A626F48D200049DE2A /* DXZEducationRevokeInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXZEducationRevokeInfoModel.m; sourceTree = "<group>"; };
+		B4FB79A726F48D200049DE2A /* DrawShapeControlInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawShapeControlInfoModel.h; sourceTree = "<group>"; };
+		B4FB79A826F48D200049DE2A /* ZHFigureDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFigureDrawingView.h; sourceTree = "<group>"; };
+		B4FB79AD26F48D200049DE2A /* ZHDrawingCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingCircleLayer.h; sourceTree = "<group>"; };
+		B4FB79AE26F48D200049DE2A /* ZHDrawingGraffitiLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingGraffitiLayer.h; sourceTree = "<group>"; };
+		B4FB79AF26F48D200049DE2A /* ZHDrawingLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingLineLayer.m; sourceTree = "<group>"; };
+		B4FB79B026F48D200049DE2A /* ZHDTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDTextLayer.m; sourceTree = "<group>"; };
+		B4FB79B126F48D200049DE2A /* ZHDrawingCuboidLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingCuboidLayer.m; sourceTree = "<group>"; };
+		B4FB79B226F48D200049DE2A /* ZHDrawingRighTangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingRighTangleLayer.m; sourceTree = "<group>"; };
+		B4FB79B326F48D200049DE2A /* ZHDrawingOvalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingOvalLayer.h; sourceTree = "<group>"; };
+		B4FB79B426F48D200049DE2A /* ZHDrawingArrowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingArrowLayer.h; sourceTree = "<group>"; };
+		B4FB79B526F48D200049DE2A /* ZHDrawingSphereLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingSphereLayer.m; sourceTree = "<group>"; };
+		B4FB79B626F48D200049DE2A /* ZHDrawingAxisLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingAxisLayer.m; sourceTree = "<group>"; };
+		B4FB79B726F48D200049DE2A /* ZHDrawingPentagonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingPentagonLayer.h; sourceTree = "<group>"; };
+		B4FB79B826F48D200049DE2A /* ZHDrawingHexagonLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingHexagonLayer.m; sourceTree = "<group>"; };
+		B4FB79B926F48D200049DE2A /* ZHDrawingDottedlineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingDottedlineLayer.m; sourceTree = "<group>"; };
+		B4FB79BA26F48D200049DE2A /* ZHDrawingThreeDCoordinateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingThreeDCoordinateLayer.m; sourceTree = "<group>"; };
+		B4FB79BB26F48D200049DE2A /* ZHDrawingTriangularPyramidLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingTriangularPyramidLayer.m; sourceTree = "<group>"; };
+		B4FB79BC26F48D200049DE2A /* ZHDrawingRulerLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingRulerLineLayer.h; sourceTree = "<group>"; };
+		B4FB79BD26F48D200049DE2A /* ZHDrawingConeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingConeLayer.h; sourceTree = "<group>"; };
+		B4FB79BE26F48D200049DE2A /* ZHDrawingRegularPolygonLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingRegularPolygonLayer.m; sourceTree = "<group>"; };
+		B4FB79BF26F48D200049DE2A /* ZHDrawingRectLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingRectLayer.m; sourceTree = "<group>"; };
+		B4FB79C026F48D200049DE2A /* ZHDrawingTriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingTriangleLayer.m; sourceTree = "<group>"; };
+		B4FB79C126F48D200049DE2A /* ZHDrawingRhombusLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingRhombusLayer.m; sourceTree = "<group>"; };
+		B4FB79C226F48D200049DE2A /* ZHDrawingArcLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingArcLayer.m; sourceTree = "<group>"; };
+		B4FB79C326F48D200049DE2A /* ZHDrawingCosineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingCosineLayer.m; sourceTree = "<group>"; };
+		B4FB79C426F48D200049DE2A /* ZHDrawingRulerArrowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingRulerArrowLayer.h; sourceTree = "<group>"; };
+		B4FB79C526F48D200049DE2A /* ZHDrawingCylinderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingCylinderLayer.h; sourceTree = "<group>"; };
+		B4FB79C626F48D200049DE2A /* ZHDrawingTrapezoidLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingTrapezoidLayer.h; sourceTree = "<group>"; };
+		B4FB79C726F48D200049DE2A /* ZHDTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDTextLayer.h; sourceTree = "<group>"; };
+		B4FB79C826F48D200049DE2A /* ZHDrawingLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingLineLayer.h; sourceTree = "<group>"; };
+		B4FB79C926F48D200049DE2A /* ZHDrawingGraffitiLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingGraffitiLayer.m; sourceTree = "<group>"; };
+		B4FB79CA26F48D200049DE2A /* ZHDrawingCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingCircleLayer.m; sourceTree = "<group>"; };
+		B4FB79CB26F48D200049DE2A /* ZHDrawingSphereLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingSphereLayer.h; sourceTree = "<group>"; };
+		B4FB79CC26F48D200049DE2A /* ZHDrawingArrowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingArrowLayer.m; sourceTree = "<group>"; };
+		B4FB79CD26F48D200049DE2A /* ZHDrawingOvalLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingOvalLayer.m; sourceTree = "<group>"; };
+		B4FB79CE26F48D200049DE2A /* ZHDrawingRighTangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingRighTangleLayer.h; sourceTree = "<group>"; };
+		B4FB79CF26F48D200049DE2A /* ZHDrawingCuboidLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingCuboidLayer.h; sourceTree = "<group>"; };
+		B4FB79D026F48D200049DE2A /* ZHDrawingRulerLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingRulerLineLayer.m; sourceTree = "<group>"; };
+		B4FB79D126F48D200049DE2A /* ZHDrawingTriangularPyramidLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingTriangularPyramidLayer.h; sourceTree = "<group>"; };
+		B4FB79D226F48D200049DE2A /* ZHDrawingThreeDCoordinateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingThreeDCoordinateLayer.h; sourceTree = "<group>"; };
+		B4FB79D326F48D200049DE2A /* ZHDrawingDottedlineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingDottedlineLayer.h; sourceTree = "<group>"; };
+		B4FB79D426F48D200049DE2A /* ZHDrawingPentagonLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingPentagonLayer.m; sourceTree = "<group>"; };
+		B4FB79D526F48D200049DE2A /* ZHDrawingHexagonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingHexagonLayer.h; sourceTree = "<group>"; };
+		B4FB79D626F48D200049DE2A /* ZHDrawingAxisLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingAxisLayer.h; sourceTree = "<group>"; };
+		B4FB79D726F48D200049DE2A /* ZHDrawingTrapezoidLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingTrapezoidLayer.m; sourceTree = "<group>"; };
+		B4FB79D826F48D200049DE2A /* ZHDrawingCosineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingCosineLayer.h; sourceTree = "<group>"; };
+		B4FB79D926F48D200049DE2A /* ZHDrawingRulerArrowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingRulerArrowLayer.m; sourceTree = "<group>"; };
+		B4FB79DA26F48D200049DE2A /* ZHDrawingCylinderLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingCylinderLayer.m; sourceTree = "<group>"; };
+		B4FB79DB26F48D200049DE2A /* ZHDrawingArcLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingArcLayer.h; sourceTree = "<group>"; };
+		B4FB79DC26F48D200049DE2A /* ZHDrawingTriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingTriangleLayer.h; sourceTree = "<group>"; };
+		B4FB79DD26F48D200049DE2A /* ZHDrawingRhombusLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingRhombusLayer.h; sourceTree = "<group>"; };
+		B4FB79DE26F48D200049DE2A /* ZHDrawingRectLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingRectLayer.h; sourceTree = "<group>"; };
+		B4FB79DF26F48D200049DE2A /* ZHDrawingConeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDrawingConeLayer.m; sourceTree = "<group>"; };
+		B4FB79E026F48D200049DE2A /* ZHDrawingRegularPolygonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDrawingRegularPolygonLayer.h; sourceTree = "<group>"; };
+		B4FB79E126F48D200049DE2A /* ZHFigureDrawingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFigureDrawingLayer.h; sourceTree = "<group>"; };
+		B4FB79E226F48D200049DE2A /* WhiteboardPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteboardPageView.m; sourceTree = "<group>"; };
+		B4FB79E326F48D200049DE2A /* ZHFigureDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFigureDrawingView.m; sourceTree = "<group>"; };
+		B4FB79E426F48D200049DE2A /* ZHFigureDrawingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFigureDrawingLayer.m; sourceTree = "<group>"; };
+		B4FB7A0B26F48DE70049DE2A /* WhiteboardToolsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteboardToolsModel.h; sourceTree = "<group>"; };
+		B4FB7A0C26F48DE70049DE2A /* WhiteboardToolsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteboardToolsModel.m; sourceTree = "<group>"; };
+		BE4BE88596A053029AEDAF7B /* Pods-MeetingSample_Share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingSample_Share.debug.xcconfig"; path = "Target Support Files/Pods-MeetingSample_Share/Pods-MeetingSample_Share.debug.xcconfig"; sourceTree = "<group>"; };
+		E009701FF1AD69082C9989FA /* Pods-meeting_ios_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meeting_ios_sample.release.xcconfig"; path = "Target Support Files/Pods-meeting_ios_sample/Pods-meeting_ios_sample.release.xcconfig"; sourceTree = "<group>"; };
+		F2DD38B46055F0B1F231DFDC /* Pods_MeetingSample_Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingSample_Share.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4557A2E2720FA0100AC7B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4557A432720FBFB00AC7B4B /* Accessibility.framework in Frameworks */,
+				B4557A402720FBDC00AC7B4B /* libc++.tbd in Frameworks */,
+				B4557A412720FBE700AC7B4B /* Accelerate.framework in Frameworks */,
+				B4557A322720FA0100AC7B4B /* ReplayKit.framework in Frameworks */,
+				F889D5092ADE38C9088FFDEE /* Pods_MeetingSample_Share.framework in Frameworks */,
+				B4D67A8127228995007E6AF9 /* CLS_ShareSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C55DA726DCE93D001A08CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44999A326DE07DA0039FF59 /* ImageIO.framework in Frameworks */,
+				B4D1593426DF29DB00E1201A /* cloud_lvb_sdk_ios.framework in Frameworks */,
+				B44999A526DE086C0039FF59 /* ReplayKit.framework in Frameworks */,
+				B44999A126DE07D20039FF59 /* CoreMedia.framework in Frameworks */,
+				8B1AB36A0F8D7A939E61111E /* Pods_meeting_ios_sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA823C399B47E9E017A9985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4557A422720FBFB00AC7B4B /* Accessibility.framework */,
+				B4E707CF271FF44800A768DA /* Accelerate.framework */,
+				B4E707CD271FF41000A768DA /* libc++.tbd */,
+				B44999A426DE086C0039FF59 /* ReplayKit.framework */,
+				B44999A226DE07DA0039FF59 /* ImageIO.framework */,
+				B44999A026DE07D20039FF59 /* CoreMedia.framework */,
+				929AE990B35486B409841122 /* Pods_meeting_ios_sample.framework */,
+				B4557A212720F7B600AC7B4B /* UIKit.framework */,
+				F2DD38B46055F0B1F231DFDC /* Pods_MeetingSample_Share.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C01100234F2B689E056D905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				778C52B5F637155198523EBD /* Pods-meeting_ios_sample.debug.xcconfig */,
+				E009701FF1AD69082C9989FA /* Pods-meeting_ios_sample.release.xcconfig */,
+				BE4BE88596A053029AEDAF7B /* Pods-MeetingSample_Share.debug.xcconfig */,
+				3E6F1AB934AFD95590CDDEF1 /* Pods-MeetingSample_Share.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B401B97927181A8C004A18E1 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				B401B97B27181AB6004A18E1 /* RootNavigationController.h */,
+				B401B97A27181AB6004A18E1 /* RootNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		B40A5E8C2700613A007016D7 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				B42757F32701AF3200482CD5 /* Views */,
+				B40A5E9027006178007016D7 /* GroupViewController.swift */,
+				B40A5E9127006178007016D7 /* GroupViewController.xib */,
+				B40A5E8F27006158007016D7 /* Models */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		B40A5E8F27006158007016D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B42757F32701AF3200482CD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B42757F42701B38400482CD5 /* GroupMemberListCell.swift */,
+				B42757F52701B38400482CD5 /* GroupMemberListCell.xib */,
+				B42757F82701B70F00482CD5 /* GroupMenuListViewCell.swift */,
+				B42757F92701B70F00482CD5 /* GroupMenuListViewCell.xib */,
+				B499219F2703F3A500EDEED4 /* GroupSectionHeaderView.swift */,
+				B401FEF527054A0C001DE31A /* GroupChooseMember.xib */,
+				B401FEF727054E40001DE31A /* GroupChooseMemberView.swift */,
+				B401FEF9270552AD001DE31A /* GroupMemberChooseListCell.swift */,
+				B401FEFA270552AD001DE31A /* GroupMemberChooseListCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B43E050C26E5F4F6002D9873 /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				B43E051226E5F544002D9873 /* SubViews */,
+				B43E051126E5F53B002D9873 /* Models */,
+				B43E050D26E5F536002D9873 /* MeetingViewController.swift */,
+				B43E050E26E5F536002D9873 /* MeetingViewController.xib */,
+			);
+			path = Meeting;
+			sourceTree = "<group>";
+		};
+		B43E051126E5F53B002D9873 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B43E051726E60B67002D9873 /* CLS_JsonParse.swift */,
+				B45E9B8926E6FECC004D4B14 /* MeetingUtils.swift */,
+				B4A601A226E89A3400642935 /* MeetingManagerDelegate.swift */,
+				B45E9B8B26E70EA3004D4B14 /* SampleMeetingManager.swift */,
+				B4A1D86426F193600036923A /* RTMMessageModel */,
+				B4E707D5271FFFA200A768DA /* MeetingScreenShareNotifyModel.h */,
+				B4E707D6271FFFA200A768DA /* MeetingScreenShareNotifyModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B43E051226E5F544002D9873 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				B43E051326E603B3002D9873 /* VideoDisplayViewCell.swift */,
+				B43E051426E603B3002D9873 /* VideoDisplayViewCell.xib */,
+				B43E051926E61669002D9873 /* MenuItemViewCell.swift */,
+				B43E051A26E61669002D9873 /* MenuItemViewCell.xib */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		B44999A626DE0AA50039FF59 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B44999A726DE0AC60039FF59 /* MeetingAPIRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B4557A332720FA0100AC7B4B /* MeetingSampleShare */ = {
+			isa = PBXGroup;
+			children = (
+				B4D67A8027228994007E6AF9 /* CLS_ShareSDK.framework */,
+				B4557A482721067800AC7B4B /* MeetingSampleShare.entitlements */,
+				B4557A342720FA0100AC7B4B /* SampleHandler.swift */,
+				B4557A362720FA0100AC7B4B /* Info.plist */,
+			);
+			path = MeetingSampleShare;
+			sourceTree = "<group>";
+		};
+		B4A1D86426F193600036923A /* RTMMessageModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4A1D86526F193900036923A /* RTMControlChannalModel.swift */,
+			);
+			path = RTMMessageModel;
+			sourceTree = "<group>";
+		};
+		B4A1D86726F19A680036923A /* MeetingChatPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				B4A1D88326F1BF3A0036923A /* DataModels */,
+				B4A1D88026F1A5B40036923A /* MeetingMenuBaseTopView.h */,
+				B4A1D88126F1A5B40036923A /* MeetingMenuBaseTopView.m */,
+				B4A1D88726F1BF840036923A /* MeetingMenuHeaderBarView.h */,
+				B4A1D88826F1BF840036923A /* MeetingMenuHeaderBarView.m */,
+				B4A1D86C26F19A680036923A /* MeetChatRoomView.h */,
+				B4A1D87326F19A680036923A /* MeetChatRoomView.m */,
+				B4A1D87626F19A680036923A /* MeetingChatBaseView.h */,
+				B4A1D86F26F19A680036923A /* MeetingChatBaseView.m */,
+				B4A1D86B26F19A680036923A /* MeetingChatInputView.h */,
+				B4A1D87426F19A680036923A /* MeetingChatInputView.m */,
+				B4A1D87726F19A680036923A /* MeetingChatMessageCell.h */,
+				B4A1D86E26F19A680036923A /* MeetingChatMessageCell.m */,
+				B4A1D86826F19A680036923A /* MeetingChatMessageTimeCell.h */,
+				B4A1D87226F19A680036923A /* MeetingChatMessageTimeCell.m */,
+				B4A1D87026F19A680036923A /* MeetingChatPopoverView.h */,
+				B4A1D86A26F19A680036923A /* MeetingChatPopoverView.m */,
+				B4A1D87126F19A680036923A /* MeetingChatViewController.h */,
+				B4A1D86926F19A680036923A /* MeetingChatViewController.m */,
+			);
+			name = MeetingChatPopoverView;
+			path = meeting_ios_sample/MeetingChatPopoverView;
+			sourceTree = SOURCE_ROOT;
+		};
+		B4A1D88326F1BF3A0036923A /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4A1D88B26F1BFAA0036923A /* NSDate+Extend.h */,
+				B4A1D88A26F1BFAA0036923A /* NSDate+Extend.m */,
+				B4A1D88426F1BF4F0036923A /* MeetingChatMessageDataModel.h */,
+				B4A1D88526F1BF4F0036923A /* MeetingChatMessageDataModel.m */,
+				B4A1D88D26F1D25F0036923A /* RoomUserInfoModel.h */,
+				B4A1D88E26F1D25F0036923A /* RoomUserInfoModel.m */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		B4C55DA126DCE93D001A08CF = {
+			isa = PBXGroup;
+			children = (
+				B4C55DAC26DCE93D001A08CF /* meeting_ios_sample */,
+				B4557A332720FA0100AC7B4B /* MeetingSampleShare */,
+				B4C55DAB26DCE93D001A08CF /* Products */,
+				5C01100234F2B689E056D905 /* Pods */,
+				2AA823C399B47E9E017A9985 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4C55DAB26DCE93D001A08CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4C55DAA26DCE93D001A08CF /* meeting_ios_sample.app */,
+				B4557A312720FA0100AC7B4B /* MeetingSampleShare.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4C55DAC26DCE93D001A08CF /* meeting_ios_sample */ = {
+			isa = PBXGroup;
+			children = (
+				B4963169272106D000AAAAF2 /* meeting_ios_sample.entitlements */,
+				B4E7849E2701A39200CF234A /* Members */,
+				B40A5E8C2700613A007016D7 /* Group */,
+				B4FB799526F48CFC0049DE2A /* Whiteboard */,
+				B4D1593326DF29DB00E1201A /* cloud_lvb_sdk_ios.framework */,
+				B4C55DAD26DCE93D001A08CF /* AppDelegate.swift */,
+				B4D1593826DF6DB800E1201A /* MainPage */,
+				B44999A626DE0AA50039FF59 /* Networking */,
+				B4C55DC126DCE986001A08CF /* Login */,
+				B43E050C26E5F4F6002D9873 /* Meeting */,
+				B4DFC86026E99F6B008EB00C /* Vote */,
+				B4A1D86726F19A680036923A /* MeetingChatPopoverView */,
+				B4C55DB326DCE93D001A08CF /* Main.storyboard */,
+				B4C55DB626DCE93F001A08CF /* Assets.xcassets */,
+				B4C55DB826DCE93F001A08CF /* LaunchScreen.storyboard */,
+				B4C55DBB26DCE93F001A08CF /* Info.plist */,
+			);
+			path = meeting_ios_sample;
+			sourceTree = "<group>";
+		};
+		B4C55DC126DCE986001A08CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1593526DF5E6500E1201A /* Models */,
+				B4C55DC226DCE98E001A08CF /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B4C55DC226DCE98E001A08CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4C55DC726DCEF10001A08CF /* LoginViewController.swift */,
+				B4C55DC826DCEF10001A08CF /* LoginViewController.xib */,
+				B449999A26DDC7FB0039FF59 /* RegisterViewController.swift */,
+				B449999B26DDC7FB0039FF59 /* RegisterViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4D1593526DF5E6500E1201A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1593626DF5E8200E1201A /* LoginUserDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4D1593826DF6DB800E1201A /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1593F26DF723000E1201A /* Models */,
+				B4D1593A26DF6DE800E1201A /* CustomViews */,
+				B4D1593926DF6DD300E1201A /* Controllers */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		B4D1593926DF6DD300E1201A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4C55DB126DCE93D001A08CF /* ViewController.swift */,
+				B49087BF26E20B8B00978C59 /* JoinMeetingViewController.swift */,
+				B49087C026E20B8B00978C59 /* JoinMeetingViewController.xib */,
+				B4F479C526E0B3B200B84BA8 /* ReserveMeetingViewController.swift */,
+				B4F479C626E0B3B200B84BA8 /* ReserveMeetingViewController.xib */,
+				B43E050826E5A9DE002D9873 /* FastMeetingViewController.swift */,
+				B43E050926E5A9DE002D9873 /* FastMeetingViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4D1593A26DF6DE800E1201A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B4F479C926E0D06800B84BA8 /* meeting_ios_sample-Bridging-Header.h */,
+				B4F479CA26E0D06800B84BA8 /* BHXPikerView.h */,
+				B4F479CB26E0D06900B84BA8 /* BHXPikerView.m */,
+				B4D1593B26DF6E1300E1201A /* MeetingListCell.swift */,
+				B4D1593C26DF6E1300E1201A /* MeetingListCell.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		B4D1593F26DF723000E1201A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4F479C326E0634700B84BA8 /* MeetingDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4DFC86026E99F6B008EB00C /* Vote */ = {
+			isa = PBXGroup;
+			children = (
+				B4DFC86126E99F6B008EB00C /* ViewModel */,
+				B4DFC86326E99F6B008EB00C /* Controller */,
+				B4DFC86A26E99F6B008EB00C /* Model */,
+				B4DFC86D26E99F6B008EB00C /* View */,
+			);
+			path = Vote;
+			sourceTree = "<group>";
+		};
+		B4DFC86126E99F6B008EB00C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4DFC86226E99F6B008EB00C /* VoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B4DFC86326E99F6B008EB00C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4DFC86426E99F6B008EB00C /* VoteResultController.swift */,
+				B4DFC86526E99F6B008EB00C /* VoteController.swift */,
+				B4DFC86626E99F6B008EB00C /* VotePublishViewController.swift */,
+				B4DFC86726E99F6B008EB00C /* CreatVoteController.swift */,
+				B4DFC86826E99F6B008EB00C /* UserResultController.swift */,
+				B4DFC86926E99F6B008EB00C /* VoteListViewController.swift */,
+				B401B97927181A8C004A18E1 /* NavigationController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4DFC86A26E99F6B008EB00C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4DFC86B26E99F6B008EB00C /* ResponseModel.swift */,
+				B4DFC86C26E99F6B008EB00C /* VoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4DFC86D26E99F6B008EB00C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4DFC86E26E99F6B008EB00C /* VoteResultCell.swift */,
+				B4DFC86F26E99F6B008EB00C /* VoteCell.swift */,
+				B4DFC87026E99F6B008EB00C /* VoteView.swift */,
+				B4DFC87126E99F6B008EB00C /* VoteResultView.swift */,
+				B4DFC87226E99F6B008EB00C /* CreatVoteView.swift */,
+				B4DFC87326E99F6B008EB00C /* CommonSlider.swift */,
+				B4DFC87426E99F6B008EB00C /* CreatVoteHeaderView.swift */,
+				B4DFC87526E99F6B008EB00C /* CreatVoteCell.swift */,
+				B4DFC87626E99F6B008EB00C /* VoteListView.swift */,
+				B4DFC87726E99F6B008EB00C /* VoteUserResultCell.swift */,
+				B4DFC87826E99F6B008EB00C /* VoteUserResultView.swift */,
+				B4DFC87926E99F6B008EB00C /* VoteListCell.swift */,
+				B4DFC87A26E99F6B008EB00C /* VotePublishView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4E7849E2701A39200CF234A /* Members */ = {
+			isa = PBXGroup;
+			children = (
+				B4E784A02701A3C800CF234A /* Models */,
+				B4E7849F2701A3A100CF234A /* CustomViews */,
+				B4BDF01F271031F300636A1C /* MemberViewController.swift */,
+				B4BDF020271031F300636A1C /* MemberViewController.xib */,
+			);
+			path = Members;
+			sourceTree = "<group>";
+		};
+		B4E7849F2701A3A100CF234A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B4E7849A270161AF00CF234A /* MemberListViewCell.swift */,
+				B4E7849B270161AF00CF234A /* MemberListViewCell.xib */,
+				B4BDF0232710380C00636A1C /* MemberListMenuCell.swift */,
+				B4BDF0242710380C00636A1C /* MemberListMenuCell.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		B4E784A02701A3C800CF234A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4FB799526F48CFC0049DE2A /* Whiteboard */ = {
+			isa = PBXGroup;
+			children = (
+				B4BDF01D270FD5B300636A1C /* msyh.ttf */,
+				B4FB7A0A26F48DC30049DE2A /* CustomModels */,
+				B4FB799626F48D090049DE2A /* CustomViews */,
+				B476444F26F58D7100A66371 /* WhiteBroadViewController.swift */,
+				B476445026F58D7100A66371 /* WhiteBroadViewController.xib */,
+				B41A9B212716708300F641C4 /* ScreenShareViewController.swift */,
+				B41A9B222716708300F641C4 /* ScreenShareViewController.xib */,
+			);
+			path = Whiteboard;
+			sourceTree = "<group>";
+		};
+		B4FB799626F48D090049DE2A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB799726F48D200049DE2A /* WhiteBoard */,
+				B476445326F5B63200A66371 /* WhiteboardMenuCell.swift */,
+				B476445426F5B63200A66371 /* WhiteboardMenuCell.xib */,
+				B476445726F5D32900A66371 /* WhiteboardColorMenuCell.swift */,
+				B476445826F5D32900A66371 /* WhiteboardColorMenuCell.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		B4FB799726F48D200049DE2A /* WhiteBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB799926F48D200049DE2A /* WhiteboardDrawModels */,
+				B4FB799826F48D200049DE2A /* WhiteboardPageView.h */,
+				B4FB79E226F48D200049DE2A /* WhiteboardPageView.m */,
+				B4FB79AC26F48D200049DE2A /* ZHDrawingLayer */,
+				B4FB79E126F48D200049DE2A /* ZHFigureDrawingLayer.h */,
+				B4FB79E426F48D200049DE2A /* ZHFigureDrawingLayer.m */,
+				B4FB79A826F48D200049DE2A /* ZHFigureDrawingView.h */,
+				B4FB79E326F48D200049DE2A /* ZHFigureDrawingView.m */,
+			);
+			path = WhiteBoard;
+			sourceTree = "<group>";
+		};
+		B4FB799926F48D200049DE2A /* WhiteboardDrawModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB79A226F48D200049DE2A /* DrawLineControlInfoModel.h */,
+				B4FB799A26F48D200049DE2A /* DrawLineControlInfoModel.m */,
+				B4FB799B26F48D200049DE2A /* DrawPageHistoryDataInfo.h */,
+				B4FB79A126F48D200049DE2A /* DrawPageHistoryDataInfo.m */,
+				B4FB799D26F48D200049DE2A /* DrawPageInfoModel.h */,
+				B4FB79A426F48D200049DE2A /* DrawPageInfoModel.m */,
+				B4FB79A026F48D200049DE2A /* DrawPageRevokeInfoModel.h */,
+				B4FB79A526F48D200049DE2A /* DrawPageRevokeInfoModel.m */,
+				B4FB79A726F48D200049DE2A /* DrawShapeControlInfoModel.h */,
+				B4FB799E26F48D200049DE2A /* DrawShapeControlInfoModel.m */,
+				B4FB799F26F48D200049DE2A /* DXZEducationRevokeInfoModel.h */,
+				B4FB79A626F48D200049DE2A /* DXZEducationRevokeInfoModel.m */,
+				B4FB79A326F48D200049DE2A /* WhiteboardMessageInfoModel.h */,
+				B4FB799C26F48D200049DE2A /* WhiteboardMessageInfoModel.m */,
+			);
+			path = WhiteboardDrawModels;
+			sourceTree = "<group>";
+		};
+		B4FB79AC26F48D200049DE2A /* ZHDrawingLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB79DB26F48D200049DE2A /* ZHDrawingArcLayer.h */,
+				B4FB79C226F48D200049DE2A /* ZHDrawingArcLayer.m */,
+				B4FB79B426F48D200049DE2A /* ZHDrawingArrowLayer.h */,
+				B4FB79CC26F48D200049DE2A /* ZHDrawingArrowLayer.m */,
+				B4FB79D626F48D200049DE2A /* ZHDrawingAxisLayer.h */,
+				B4FB79B626F48D200049DE2A /* ZHDrawingAxisLayer.m */,
+				B4FB79AD26F48D200049DE2A /* ZHDrawingCircleLayer.h */,
+				B4FB79CA26F48D200049DE2A /* ZHDrawingCircleLayer.m */,
+				B4FB79BD26F48D200049DE2A /* ZHDrawingConeLayer.h */,
+				B4FB79DF26F48D200049DE2A /* ZHDrawingConeLayer.m */,
+				B4FB79D826F48D200049DE2A /* ZHDrawingCosineLayer.h */,
+				B4FB79C326F48D200049DE2A /* ZHDrawingCosineLayer.m */,
+				B4FB79CF26F48D200049DE2A /* ZHDrawingCuboidLayer.h */,
+				B4FB79B126F48D200049DE2A /* ZHDrawingCuboidLayer.m */,
+				B4FB79C526F48D200049DE2A /* ZHDrawingCylinderLayer.h */,
+				B4FB79DA26F48D200049DE2A /* ZHDrawingCylinderLayer.m */,
+				B4FB79D326F48D200049DE2A /* ZHDrawingDottedlineLayer.h */,
+				B4FB79B926F48D200049DE2A /* ZHDrawingDottedlineLayer.m */,
+				B4FB79AE26F48D200049DE2A /* ZHDrawingGraffitiLayer.h */,
+				B4FB79C926F48D200049DE2A /* ZHDrawingGraffitiLayer.m */,
+				B4FB79D526F48D200049DE2A /* ZHDrawingHexagonLayer.h */,
+				B4FB79B826F48D200049DE2A /* ZHDrawingHexagonLayer.m */,
+				B4FB79C826F48D200049DE2A /* ZHDrawingLineLayer.h */,
+				B4FB79AF26F48D200049DE2A /* ZHDrawingLineLayer.m */,
+				B4FB79B326F48D200049DE2A /* ZHDrawingOvalLayer.h */,
+				B4FB79CD26F48D200049DE2A /* ZHDrawingOvalLayer.m */,
+				B4FB79B726F48D200049DE2A /* ZHDrawingPentagonLayer.h */,
+				B4FB79D426F48D200049DE2A /* ZHDrawingPentagonLayer.m */,
+				B4FB79DE26F48D200049DE2A /* ZHDrawingRectLayer.h */,
+				B4FB79BF26F48D200049DE2A /* ZHDrawingRectLayer.m */,
+				B4FB79E026F48D200049DE2A /* ZHDrawingRegularPolygonLayer.h */,
+				B4FB79BE26F48D200049DE2A /* ZHDrawingRegularPolygonLayer.m */,
+				B4FB79DD26F48D200049DE2A /* ZHDrawingRhombusLayer.h */,
+				B4FB79C126F48D200049DE2A /* ZHDrawingRhombusLayer.m */,
+				B4FB79CE26F48D200049DE2A /* ZHDrawingRighTangleLayer.h */,
+				B4FB79B226F48D200049DE2A /* ZHDrawingRighTangleLayer.m */,
+				B4FB79C426F48D200049DE2A /* ZHDrawingRulerArrowLayer.h */,
+				B4FB79D926F48D200049DE2A /* ZHDrawingRulerArrowLayer.m */,
+				B4FB79BC26F48D200049DE2A /* ZHDrawingRulerLineLayer.h */,
+				B4FB79D026F48D200049DE2A /* ZHDrawingRulerLineLayer.m */,
+				B4FB79CB26F48D200049DE2A /* ZHDrawingSphereLayer.h */,
+				B4FB79B526F48D200049DE2A /* ZHDrawingSphereLayer.m */,
+				B4FB79D226F48D200049DE2A /* ZHDrawingThreeDCoordinateLayer.h */,
+				B4FB79BA26F48D200049DE2A /* ZHDrawingThreeDCoordinateLayer.m */,
+				B4FB79C626F48D200049DE2A /* ZHDrawingTrapezoidLayer.h */,
+				B4FB79D726F48D200049DE2A /* ZHDrawingTrapezoidLayer.m */,
+				B4FB79DC26F48D200049DE2A /* ZHDrawingTriangleLayer.h */,
+				B4FB79C026F48D200049DE2A /* ZHDrawingTriangleLayer.m */,
+				B4FB79D126F48D200049DE2A /* ZHDrawingTriangularPyramidLayer.h */,
+				B4FB79BB26F48D200049DE2A /* ZHDrawingTriangularPyramidLayer.m */,
+				B4FB79C726F48D200049DE2A /* ZHDTextLayer.h */,
+				B4FB79B026F48D200049DE2A /* ZHDTextLayer.m */,
+			);
+			path = ZHDrawingLayer;
+			sourceTree = "<group>";
+		};
+		B4FB7A0A26F48DC30049DE2A /* CustomModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB7A0B26F48DE70049DE2A /* WhiteboardToolsModel.h */,
+				B4FB7A0C26F48DE70049DE2A /* WhiteboardToolsModel.m */,
+			);
+			path = CustomModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4557A302720FA0100AC7B4B /* MeetingSampleShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4557A3A2720FA0100AC7B4B /* Build configuration list for PBXNativeTarget "MeetingSampleShare" */;
+			buildPhases = (
+				4CA41143414169069B8D95B6 /* [CP] Check Pods Manifest.lock */,
+				B4557A2D2720FA0100AC7B4B /* Sources */,
+				B4557A2E2720FA0100AC7B4B /* Frameworks */,
+				B4557A2F2720FA0100AC7B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingSampleShare;
+			productName = MeetingSample_Share;
+			productReference = B4557A312720FA0100AC7B4B /* MeetingSampleShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B4C55DA926DCE93D001A08CF /* meeting_ios_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4C55DBE26DCE93F001A08CF /* Build configuration list for PBXNativeTarget "meeting_ios_sample" */;
+			buildPhases = (
+				1C5C2C061085943675D0402F /* [CP] Check Pods Manifest.lock */,
+				B4C55DA626DCE93D001A08CF /* Sources */,
+				B4C55DA726DCE93D001A08CF /* Frameworks */,
+				B4C55DA826DCE93D001A08CF /* Resources */,
+				030157268DA57B62C3413640 /* [CP] Embed Pods Frameworks */,
+				B4557A472720FD1B00AC7B4B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4557A462720FD1A00AC7B4B /* PBXTargetDependency */,
+			);
+			name = meeting_ios_sample;
+			productName = meeting_ios_sample;
+			productReference = B4C55DAA26DCE93D001A08CF /* meeting_ios_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4C55DA226DCE93D001A08CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B4557A302720FA0100AC7B4B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B4C55DA926DCE93D001A08CF = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = B4C55DA526DCE93D001A08CF /* Build configuration list for PBXProject "meeting_ios_sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4C55DA126DCE93D001A08CF;
+			productRefGroup = B4C55DAB26DCE93D001A08CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4C55DA926DCE93D001A08CF /* meeting_ios_sample */,
+				B4557A302720FA0100AC7B4B /* MeetingSampleShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4557A2F2720FA0100AC7B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C55DA826DCE93D001A08CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E051C26E61669002D9873 /* MenuItemViewCell.xib in Resources */,
+				B476445226F58D7100A66371 /* WhiteBroadViewController.xib in Resources */,
+				B43E050B26E5A9DE002D9873 /* FastMeetingViewController.xib in Resources */,
+				B4F479C826E0B3B200B84BA8 /* ReserveMeetingViewController.xib in Resources */,
+				B40A5E9327006178007016D7 /* GroupViewController.xib in Resources */,
+				B4E7849D270161AF00CF234A /* MemberListViewCell.xib in Resources */,
+				B4C55DCA26DCEF10001A08CF /* LoginViewController.xib in Resources */,
+				B4BDF01E270FD5B300636A1C /* msyh.ttf in Resources */,
+				B4BDF0262710380C00636A1C /* MemberListMenuCell.xib in Resources */,
+				B449999D26DDC7FB0039FF59 /* RegisterViewController.xib in Resources */,
+				B401FEF627054A0C001DE31A /* GroupChooseMember.xib in Resources */,
+				B4C55DBA26DCE93F001A08CF /* LaunchScreen.storyboard in Resources */,
+				B4C55DB726DCE93F001A08CF /* Assets.xcassets in Resources */,
+				B43E051626E603B3002D9873 /* VideoDisplayViewCell.xib in Resources */,
+				B476445A26F5D32900A66371 /* WhiteboardColorMenuCell.xib in Resources */,
+				B401FEFC270552AD001DE31A /* GroupMemberChooseListCell.xib in Resources */,
+				B43E051026E5F536002D9873 /* MeetingViewController.xib in Resources */,
+				B42757FB2701B70F00482CD5 /* GroupMenuListViewCell.xib in Resources */,
+				B42757F72701B38400482CD5 /* GroupMemberListCell.xib in Resources */,
+				B4C55DB526DCE93D001A08CF /* Main.storyboard in Resources */,
+				B476445626F5B63200A66371 /* WhiteboardMenuCell.xib in Resources */,
+				B41A9B242716708300F641C4 /* ScreenShareViewController.xib in Resources */,
+				B4BDF022271031F300636A1C /* MemberViewController.xib in Resources */,
+				B49087C226E20B8B00978C59 /* JoinMeetingViewController.xib in Resources */,
+				B4D1593E26DF6E1300E1201A /* MeetingListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030157268DA57B62C3413640 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meeting_ios_sample/Pods-meeting_ios_sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meeting_ios_sample/Pods-meeting_ios_sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meeting_ios_sample/Pods-meeting_ios_sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C5C2C061085943675D0402F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meeting_ios_sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" \n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CA41143414169069B8D95B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingSample_Share-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4557A2D2720FA0100AC7B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4557A352720FA0100AC7B4B /* SampleHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C55DA626DCE93D001A08CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43E051B26E61669002D9873 /* MenuItemViewCell.swift in Sources */,
+				B4A1D88F26F1D25F0036923A /* RoomUserInfoModel.m in Sources */,
+				B4FB79E626F48D200049DE2A /* WhiteboardMessageInfoModel.m in Sources */,
+				B4DFC88926E99F6B008EB00C /* CommonSlider.swift in Sources */,
+				B4DFC88226E99F6B008EB00C /* ResponseModel.swift in Sources */,
+				B4D1593726DF5E8200E1201A /* LoginUserDataModel.swift in Sources */,
+				B4DFC88126E99F6B008EB00C /* VoteListViewController.swift in Sources */,
+				B4FB79FD26F48D200049DE2A /* ZHDrawingGraffitiLayer.m in Sources */,
+				B4FB79EF26F48D200049DE2A /* ZHDrawingCuboidLayer.m in Sources */,
+				B4FB79EB26F48D200049DE2A /* DXZEducationRevokeInfoModel.m in Sources */,
+				B4A1D86626F193900036923A /* RTMControlChannalModel.swift in Sources */,
+				B4D1593D26DF6E1300E1201A /* MeetingListCell.swift in Sources */,
+				B41A9B232716708300F641C4 /* ScreenShareViewController.swift in Sources */,
+				B4FB7A0326F48D200049DE2A /* ZHDrawingTrapezoidLayer.m in Sources */,
+				B4FB79E926F48D200049DE2A /* DrawPageInfoModel.m in Sources */,
+				B4DFC88326E99F6B008EB00C /* VoteModel.swift in Sources */,
+				B401FEF827054E40001DE31A /* GroupChooseMemberView.swift in Sources */,
+				B4FB79ED26F48D200049DE2A /* ZHDrawingLineLayer.m in Sources */,
+				B44999A826DE0AC60039FF59 /* MeetingAPIRequest.swift in Sources */,
+				B401FEFB270552AD001DE31A /* GroupMemberChooseListCell.swift in Sources */,
+				B4DFC88726E99F6B008EB00C /* VoteResultView.swift in Sources */,
+				B4FB79F126F48D200049DE2A /* ZHDrawingSphereLayer.m in Sources */,
+				B4DFC87C26E99F6B008EB00C /* VoteResultController.swift in Sources */,
+				B4DFC88E26E99F6B008EB00C /* VoteUserResultView.swift in Sources */,
+				B4FB79E526F48D200049DE2A /* DrawLineControlInfoModel.m in Sources */,
+				B4DFC87B26E99F6B008EB00C /* VoteViewModel.swift in Sources */,
+				B4A1D87A26F19A680036923A /* MeetingChatMessageCell.m in Sources */,
+				B4DFC88526E99F6B008EB00C /* VoteCell.swift in Sources */,
+				B476445926F5D32900A66371 /* WhiteboardColorMenuCell.swift in Sources */,
+				B476445126F58D7100A66371 /* WhiteBroadViewController.swift in Sources */,
+				B4C55DC926DCEF10001A08CF /* LoginViewController.swift in Sources */,
+				B4A1D87D26F19A680036923A /* MeetChatRoomView.m in Sources */,
+				B4DFC88A26E99F6B008EB00C /* CreatVoteHeaderView.swift in Sources */,
+				B4FB79F926F48D200049DE2A /* ZHDrawingTriangleLayer.m in Sources */,
+				B4A1D87B26F19A680036923A /* MeetingChatBaseView.m in Sources */,
+				B4A1D88626F1BF4F0036923A /* MeetingChatMessageDataModel.m in Sources */,
+				B4FB79F026F48D200049DE2A /* ZHDrawingRighTangleLayer.m in Sources */,
+				B4E7849C270161AF00CF234A /* MemberListViewCell.swift in Sources */,
+				B4DFC87E26E99F6B008EB00C /* VotePublishViewController.swift in Sources */,
+				B4FB79F426F48D200049DE2A /* ZHDrawingDottedlineLayer.m in Sources */,
+				B4FB7A0126F48D200049DE2A /* ZHDrawingRulerLineLayer.m in Sources */,
+				B4A1D88C26F1BFAA0036923A /* NSDate+Extend.m in Sources */,
+				B42757F62701B38400482CD5 /* GroupMemberListCell.swift in Sources */,
+				B4BDF021271031F300636A1C /* MemberViewController.swift in Sources */,
+				B4DFC87D26E99F6B008EB00C /* VoteController.swift in Sources */,
+				B43E051826E60B67002D9873 /* CLS_JsonParse.swift in Sources */,
+				B4A1D87C26F19A680036923A /* MeetingChatMessageTimeCell.m in Sources */,
+				B4FB7A0226F48D200049DE2A /* ZHDrawingPentagonLayer.m in Sources */,
+				B4FB79F726F48D200049DE2A /* ZHDrawingRegularPolygonLayer.m in Sources */,
+				B43E050A26E5A9DE002D9873 /* FastMeetingViewController.swift in Sources */,
+				B45E9B8A26E6FECC004D4B14 /* MeetingUtils.swift in Sources */,
+				B43E051526E603B3002D9873 /* VideoDisplayViewCell.swift in Sources */,
+				B4A1D87926F19A680036923A /* MeetingChatPopoverView.m in Sources */,
+				B4FB79F326F48D200049DE2A /* ZHDrawingHexagonLayer.m in Sources */,
+				B4DFC88026E99F6B008EB00C /* UserResultController.swift in Sources */,
+				B4FB7A0626F48D210049DE2A /* ZHDrawingConeLayer.m in Sources */,
+				B4DFC87F26E99F6B008EB00C /* CreatVoteController.swift in Sources */,
+				B4DFC88426E99F6B008EB00C /* VoteResultCell.swift in Sources */,
+				B401B97C27181AB6004A18E1 /* RootNavigationController.m in Sources */,
+				B49087C126E20B8B00978C59 /* JoinMeetingViewController.swift in Sources */,
+				B476445526F5B63200A66371 /* WhiteboardMenuCell.swift in Sources */,
+				B4A1D88926F1BF850036923A /* MeetingMenuHeaderBarView.m in Sources */,
+				B4DFC89026E99F6B008EB00C /* VotePublishView.swift in Sources */,
+				B4FB7A0826F48D210049DE2A /* ZHFigureDrawingView.m in Sources */,
+				B4DFC88626E99F6B008EB00C /* VoteView.swift in Sources */,
+				B4F479C726E0B3B200B84BA8 /* ReserveMeetingViewController.swift in Sources */,
+				B449999C26DDC7FB0039FF59 /* RegisterViewController.swift in Sources */,
+				B4BDF0252710380C00636A1C /* MemberListMenuCell.swift in Sources */,
+				B4DFC88D26E99F6B008EB00C /* VoteUserResultCell.swift in Sources */,
+				B4DFC88B26E99F6B008EB00C /* CreatVoteCell.swift in Sources */,
+				B4DFC88826E99F6B008EB00C /* CreatVoteView.swift in Sources */,
+				B4FB7A0726F48D210049DE2A /* WhiteboardPageView.m in Sources */,
+				B4FB79F826F48D200049DE2A /* ZHDrawingRectLayer.m in Sources */,
+				B4A1D87E26F19A680036923A /* MeetingChatInputView.m in Sources */,
+				B4FB7A0926F48D210049DE2A /* ZHFigureDrawingLayer.m in Sources */,
+				B4FB79EE26F48D200049DE2A /* ZHDTextLayer.m in Sources */,
+				B4F479C426E0634700B84BA8 /* MeetingDataModel.swift in Sources */,
+				B4C55DB226DCE93D001A08CF /* ViewController.swift in Sources */,
+				B4A1D88226F1A5B40036923A /* MeetingMenuBaseTopView.m in Sources */,
+				B4FB79F626F48D200049DE2A /* ZHDrawingTriangularPyramidLayer.m in Sources */,
+				B4FB79FF26F48D200049DE2A /* ZHDrawingArrowLayer.m in Sources */,
+				B42757FA2701B70F00482CD5 /* GroupMenuListViewCell.swift in Sources */,
+				B4FB79F526F48D200049DE2A /* ZHDrawingThreeDCoordinateLayer.m in Sources */,
+				B4A1D87826F19A680036923A /* MeetingChatViewController.m in Sources */,
+				B4FB79E826F48D200049DE2A /* DrawPageHistoryDataInfo.m in Sources */,
+				B4FB7A0526F48D210049DE2A /* ZHDrawingCylinderLayer.m in Sources */,
+				B4C55DAE26DCE93D001A08CF /* AppDelegate.swift in Sources */,
+				B49921A02703F3A500EDEED4 /* GroupSectionHeaderView.swift in Sources */,
+				B4FB79E726F48D200049DE2A /* DrawShapeControlInfoModel.m in Sources */,
+				B45E9B8C26E70EA3004D4B14 /* SampleMeetingManager.swift in Sources */,
+				B4FB7A0026F48D200049DE2A /* ZHDrawingOvalLayer.m in Sources */,
+				B4A601A326E89A3400642935 /* MeetingManagerDelegate.swift in Sources */,
+				B4F479CC26E0D06900B84BA8 /* BHXPikerView.m in Sources */,
+				B4FB79F226F48D200049DE2A /* ZHDrawingAxisLayer.m in Sources */,
+				B4FB79EA26F48D200049DE2A /* DrawPageRevokeInfoModel.m in Sources */,
+				B4DFC88C26E99F6B008EB00C /* VoteListView.swift in Sources */,
+				B4FB7A0426F48D210049DE2A /* ZHDrawingRulerArrowLayer.m in Sources */,
+				B4FB79FA26F48D200049DE2A /* ZHDrawingRhombusLayer.m in Sources */,
+				B43E050F26E5F536002D9873 /* MeetingViewController.swift in Sources */,
+				B40A5E9227006178007016D7 /* GroupViewController.swift in Sources */,
+				B4FB79FB26F48D200049DE2A /* ZHDrawingArcLayer.m in Sources */,
+				B4FB7A0D26F48DE70049DE2A /* WhiteboardToolsModel.m in Sources */,
+				B4DFC88F26E99F6B008EB00C /* VoteListCell.swift in Sources */,
+				B4FB79FE26F48D200049DE2A /* ZHDrawingCircleLayer.m in Sources */,
+				B4E707D7271FFFA200A768DA /* MeetingScreenShareNotifyModel.m in Sources */,
+				B4FB79FC26F48D200049DE2A /* ZHDrawingCosineLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4557A462720FD1A00AC7B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4557A302720FA0100AC7B4B /* MeetingSampleShare */;
+			targetProxy = B4557A452720FD1A00AC7B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4C55DB326DCE93D001A08CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C55DB426DCE93D001A08CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4C55DB826DCE93F001A08CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4C55DB926DCE93F001A08CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4557A3B2720FA0100AC7B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4BE88596A053029AEDAF7B /* Pods-MeetingSample_Share.debug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = MeetingSampleShare/MeetingSampleShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HTW6ZG346Z;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MeetingSample_Share",
+					"$(PROJECT_DIR)/MeetingSampleShare",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MeetingSampleShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeetingSample_Share;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenPlatformTeam.meetingSample.MeetingSampleShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4557A3C2720FA0100AC7B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6F1AB934AFD95590CDDEF1 /* Pods-MeetingSample_Share.release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = MeetingSampleShare/MeetingSampleShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HTW6ZG346Z;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MeetingSample_Share",
+					"$(PROJECT_DIR)/MeetingSampleShare",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MeetingSampleShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeetingSample_Share;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenPlatformTeam.meetingSample.MeetingSampleShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4C55DBC26DCE93F001A08CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4C55DBD26DCE93F001A08CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4C55DBF26DCE93F001A08CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778C52B5F637155198523EBD /* Pods-meeting_ios_sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = meeting_ios_sample/meeting_ios_sample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTW6ZG346Z;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "x86_64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/meeting_ios_sample",
+				);
+				INFOPLIST_FILE = meeting_ios_sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenPlatformTeam.meetingSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "meeting_ios_sample/MainPage/CustomViews/meeting_ios_sample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B4C55DC026DCE93F001A08CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E009701FF1AD69082C9989FA /* Pods-meeting_ios_sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = meeting_ios_sample/meeting_ios_sample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTW6ZG346Z;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "i386 x86_64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/meeting_ios_sample",
+				);
+				INFOPLIST_FILE = meeting_ios_sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpenPlatformTeam.meetingSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "meeting_ios_sample/MainPage/CustomViews/meeting_ios_sample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4557A3A2720FA0100AC7B4B /* Build configuration list for PBXNativeTarget "MeetingSampleShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4557A3B2720FA0100AC7B4B /* Debug */,
+				B4557A3C2720FA0100AC7B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C55DA526DCE93D001A08CF /* Build configuration list for PBXProject "meeting_ios_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C55DBC26DCE93F001A08CF /* Debug */,
+				B4C55DBD26DCE93F001A08CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4C55DBE26DCE93F001A08CF /* Build configuration list for PBXNativeTarget "meeting_ios_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C55DBF26DCE93F001A08CF /* Debug */,
+				B4C55DC026DCE93F001A08CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4C55DA226DCE93D001A08CF /* Project object */;
+}
