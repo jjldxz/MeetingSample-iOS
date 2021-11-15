@@ -82,7 +82,6 @@
 		B4D1593726DF5E8200E1201A /* LoginUserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1593626DF5E8200E1201A /* LoginUserDataModel.swift */; };
 		B4D1593D26DF6E1300E1201A /* MeetingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1593B26DF6E1300E1201A /* MeetingListCell.swift */; };
 		B4D1593E26DF6E1300E1201A /* MeetingListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D1593C26DF6E1300E1201A /* MeetingListCell.xib */; };
-		B4D67A8127228995007E6AF9 /* CLS_ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D67A8027228994007E6AF9 /* CLS_ShareSDK.framework */; };
 		B4DFC87B26E99F6B008EB00C /* VoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86226E99F6B008EB00C /* VoteViewModel.swift */; };
 		B4DFC87C26E99F6B008EB00C /* VoteResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86426E99F6B008EB00C /* VoteResultController.swift */; };
 		B4DFC87D26E99F6B008EB00C /* VoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DFC86526E99F6B008EB00C /* VoteController.swift */; };
@@ -273,7 +272,6 @@
 		B4D1593626DF5E8200E1201A /* LoginUserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserDataModel.swift; sourceTree = "<group>"; };
 		B4D1593B26DF6E1300E1201A /* MeetingListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListCell.swift; sourceTree = "<group>"; };
 		B4D1593C26DF6E1300E1201A /* MeetingListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingListCell.xib; sourceTree = "<group>"; };
-		B4D67A8027228994007E6AF9 /* CLS_ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CLS_ShareSDK.framework; sourceTree = "<group>"; };
 		B4DFC86226E99F6B008EB00C /* VoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteViewModel.swift; sourceTree = "<group>"; };
 		B4DFC86426E99F6B008EB00C /* VoteResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteResultController.swift; sourceTree = "<group>"; };
 		B4DFC86526E99F6B008EB00C /* VoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteController.swift; sourceTree = "<group>"; };
@@ -395,7 +393,6 @@
 				B4557A402720FBDC00AC7B4B /* libc++.tbd in Frameworks */,
 				B4557A412720FBE700AC7B4B /* Accelerate.framework in Frameworks */,
 				B4557A322720FA0100AC7B4B /* ReplayKit.framework in Frameworks */,
-				B4D67A8127228995007E6AF9 /* CLS_ShareSDK.framework in Frameworks */,
 				C23A23526C3B52A78B202010 /* Pods_MeetingSampleShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,7 +530,6 @@
 		B4557A332720FA0100AC7B4B /* MeetingSampleShare */ = {
 			isa = PBXGroup;
 			children = (
-				B4D67A8027228994007E6AF9 /* CLS_ShareSDK.framework */,
 				B4557A482721067800AC7B4B /* MeetingSampleShare.entitlements */,
 				B4557A342720FA0100AC7B4B /* SampleHandler.swift */,
 				B4557A362720FA0100AC7B4B /* Info.plist */,

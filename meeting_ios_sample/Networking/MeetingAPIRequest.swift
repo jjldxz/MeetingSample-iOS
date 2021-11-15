@@ -11,7 +11,7 @@ import Alamofire
 class MeetingAPIRequest: NSObject {
     static let shareManager = MeetingAPIRequest()
     
-    static let BaseURL:String = "http://192.168.11.145:30912/api"
+    static let BaseURL:String = <#SERVER_API_URL#>
     
     var requestHeader:HTTPHeaders = ["Content-Type": "application/json"]
     

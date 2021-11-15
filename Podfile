@@ -19,8 +19,6 @@ end
 target 'MeetingSampleShare' do
   use_frameworks!
   
-  pod 'YYModel'
-  pod 'AgoraRtcEngine_iOS', '3.4.7'
-  pod 'AFNetworking'
+  pod 'CloudLVB-ScreenShare-SDK-IOS'
 
 end
